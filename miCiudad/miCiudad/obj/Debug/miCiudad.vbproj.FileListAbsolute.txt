@@ -1,0 +1,15 @@
+C:\Users\diego\source\repos\miCiudad\miCiudad\bin\Debug\miCiudad.exe.config
+C:\Users\diego\source\repos\miCiudad\miCiudad\bin\Debug\miCiudad.exe
+C:\Users\diego\source\repos\miCiudad\miCiudad\bin\Debug\miCiudad.pdb
+C:\Users\diego\source\repos\miCiudad\miCiudad\bin\Debug\miCiudad.xml
+C:\Users\diego\source\repos\miCiudad\miCiudad\obj\Debug\miCiudad.vbprojAssemblyReference.cache
+C:\Users\diego\source\repos\miCiudad\miCiudad\obj\Debug\miCiudad.bajaUsuarioForm.resources
+C:\Users\diego\source\repos\miCiudad\miCiudad\obj\Debug\miCiudad.modificarUserForm.resources
+C:\Users\diego\source\repos\miCiudad\miCiudad\obj\Debug\miCiudad.mainForm.resources
+C:\Users\diego\source\repos\miCiudad\miCiudad\obj\Debug\miCiudad.altaUserForm.resources
+C:\Users\diego\source\repos\miCiudad\miCiudad\obj\Debug\miCiudad.Resources.resources
+C:\Users\diego\source\repos\miCiudad\miCiudad\obj\Debug\miCiudad.vbproj.GenerateResource.cache
+C:\Users\diego\source\repos\miCiudad\miCiudad\obj\Debug\miCiudad.vbproj.CoreCompileInputs.cache
+C:\Users\diego\source\repos\miCiudad\miCiudad\obj\Debug\miCiudad.exe
+C:\Users\diego\source\repos\miCiudad\miCiudad\obj\Debug\miCiudad.xml
+C:\Users\diego\source\repos\miCiudad\miCiudad\obj\Debug\miCiudad.pdb
