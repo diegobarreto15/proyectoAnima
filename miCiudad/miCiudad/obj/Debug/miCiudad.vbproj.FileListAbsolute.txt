@@ -13,3 +13,15 @@ C:\Users\diego\source\repos\miCiudad\miCiudad\obj\Debug\miCiudad.vbproj.CoreComp
 C:\Users\diego\source\repos\miCiudad\miCiudad\obj\Debug\miCiudad.exe
 C:\Users\diego\source\repos\miCiudad\miCiudad\obj\Debug\miCiudad.xml
 C:\Users\diego\source\repos\miCiudad\miCiudad\obj\Debug\miCiudad.pdb
+C:\Users\Alumno\Desktop\miCiudad\visualBasic\proyectoAnima\miCiudad\miCiudad\obj\Debug\miCiudad.vbprojAssemblyReference.cache
+C:\Users\Alumno\Desktop\miCiudad\visualBasic\proyectoAnima\miCiudad\miCiudad\obj\Debug\miCiudad.asignarEstadoReporteForm.resources
+C:\Users\Alumno\Desktop\miCiudad\visualBasic\proyectoAnima\miCiudad\miCiudad\obj\Debug\miCiudad.bajaUsuarioForm.resources
+C:\Users\Alumno\Desktop\miCiudad\visualBasic\proyectoAnima\miCiudad\miCiudad\obj\Debug\miCiudad.modificarUserForm.resources
+C:\Users\Alumno\Desktop\miCiudad\visualBasic\proyectoAnima\miCiudad\miCiudad\obj\Debug\miCiudad.mainForm.resources
+C:\Users\Alumno\Desktop\miCiudad\visualBasic\proyectoAnima\miCiudad\miCiudad\obj\Debug\miCiudad.altaUserForm.resources
+C:\Users\Alumno\Desktop\miCiudad\visualBasic\proyectoAnima\miCiudad\miCiudad\obj\Debug\miCiudad.Resources.resources
+C:\Users\Alumno\Desktop\miCiudad\visualBasic\proyectoAnima\miCiudad\miCiudad\obj\Debug\miCiudad.vbproj.GenerateResource.cache
+C:\Users\Alumno\Desktop\miCiudad\visualBasic\proyectoAnima\miCiudad\miCiudad\obj\Debug\miCiudad.vbproj.CoreCompileInputs.cache
+C:\Users\Alumno\Desktop\miCiudad\visualBasic\proyectoAnima\miCiudad\miCiudad\obj\Debug\miCiudad.exe
+C:\Users\Alumno\Desktop\miCiudad\visualBasic\proyectoAnima\miCiudad\miCiudad\obj\Debug\miCiudad.xml
+C:\Users\Alumno\Desktop\miCiudad\visualBasic\proyectoAnima\miCiudad\miCiudad\obj\Debug\miCiudad.pdb

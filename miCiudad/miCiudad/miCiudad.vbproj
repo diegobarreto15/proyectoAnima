@@ -11,9 +11,10 @@
     <AssemblyName>miCiudad</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -85,6 +86,10 @@
     <Compile Include="asignarEstadoReporteForm.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Entidades\ClaseAltaUsuario.vb" />
+    <Compile Include="Entidades\ClaseAsignarEstadoReporte.vb" />
+    <Compile Include="Entidades\ClaseBajaUsuario.vb" />
+    <Compile Include="Entidades\ClaseModificarUsuario.vb" />
     <Compile Include="modificarUsuarioForm.Designer.vb">
       <DependentUpon>modificarUsuarioForm.vb</DependentUpon>
     </Compile>
@@ -154,6 +159,10 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="logica\" />
+    <Folder Include="persistencia\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
