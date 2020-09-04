@@ -4,7 +4,7 @@
     Private _estado As String
     Private _ci As Integer
     Private _id As Integer
-    'imagen BYTEA
+    'imagen BYTEA 
 
     Public Property Descripcion As String
         Get
@@ -51,13 +51,16 @@
         End Set
     End Property
 
-    'Public Property Nombre As String
-    'Get
-    'Return _nombre
-    'End Get
-    'Set(value As String)
-    '       _nombre = value
-    'End Set
-    'End Property
+    Public Sub ClaseReporte()
+
+    End Sub
+
+    Public Sub ClaseReporte(descripcion_ As String, direccion_ As String, estado_ As String, ci_ As Integer, id_ As Integer)
+        Descripcion = descripcion_
+        Direccion = direccion_
+        Estado = estado_
+        Ci = ci_
+        Id = id_
+    End Sub
 
 End Class

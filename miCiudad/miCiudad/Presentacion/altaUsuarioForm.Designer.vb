@@ -72,7 +72,7 @@ Partial Class formAltaUsuario
         '
         Me.cbxTipoUsuario.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cbxTipoUsuario.FormattingEnabled = True
-        Me.cbxTipoUsuario.Location = New System.Drawing.Point(359, 355)
+        Me.cbxTipoUsuario.Location = New System.Drawing.Point(328, 258)
         Me.cbxTipoUsuario.Name = "cbxTipoUsuario"
         Me.cbxTipoUsuario.Size = New System.Drawing.Size(145, 28)
         Me.cbxTipoUsuario.TabIndex = 14
@@ -92,7 +92,7 @@ Partial Class formAltaUsuario
         Me.lblApellido.AutoSize = True
         Me.lblApellido.BackColor = System.Drawing.Color.Transparent
         Me.lblApellido.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblApellido.Location = New System.Drawing.Point(356, 177)
+        Me.lblApellido.Location = New System.Drawing.Point(325, 80)
         Me.lblApellido.Name = "lblApellido"
         Me.lblApellido.Size = New System.Drawing.Size(65, 20)
         Me.lblApellido.TabIndex = 20
@@ -101,7 +101,7 @@ Partial Class formAltaUsuario
         'tbxApellido
         '
         Me.tbxApellido.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.tbxApellido.Location = New System.Drawing.Point(361, 200)
+        Me.tbxApellido.Location = New System.Drawing.Point(330, 103)
         Me.tbxApellido.Name = "tbxApellido"
         Me.tbxApellido.Size = New System.Drawing.Size(145, 26)
         Me.tbxApellido.TabIndex = 19
@@ -111,7 +111,7 @@ Partial Class formAltaUsuario
         Me.lblTelefono.AutoSize = True
         Me.lblTelefono.BackColor = System.Drawing.Color.Transparent
         Me.lblTelefono.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblTelefono.Location = New System.Drawing.Point(356, 255)
+        Me.lblTelefono.Location = New System.Drawing.Point(325, 158)
         Me.lblTelefono.Name = "lblTelefono"
         Me.lblTelefono.Size = New System.Drawing.Size(71, 20)
         Me.lblTelefono.TabIndex = 24
@@ -120,7 +120,7 @@ Partial Class formAltaUsuario
         'tbxTelefono
         '
         Me.tbxTelefono.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.tbxTelefono.Location = New System.Drawing.Point(361, 278)
+        Me.tbxTelefono.Location = New System.Drawing.Point(330, 181)
         Me.tbxTelefono.Name = "tbxTelefono"
         Me.tbxTelefono.Size = New System.Drawing.Size(145, 26)
         Me.tbxTelefono.TabIndex = 23
@@ -149,7 +149,7 @@ Partial Class formAltaUsuario
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(355, 332)
+        Me.Label1.Location = New System.Drawing.Point(324, 235)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(117, 20)
         Me.Label1.TabIndex = 29
