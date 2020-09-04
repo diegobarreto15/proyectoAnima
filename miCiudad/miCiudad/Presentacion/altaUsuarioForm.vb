@@ -1,3 +1,3 @@
-﻿Public Class altaUserForm
+﻿Public Class formAltaUsuario
 
 End Class

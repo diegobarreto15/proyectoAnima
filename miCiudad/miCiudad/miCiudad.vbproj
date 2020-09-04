@@ -11,9 +11,10 @@
     <AssemblyName>miCiudad</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -104,8 +105,8 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Entidades\Mascota.vb" />
-    <Compile Include="Entidades\Persona.vb" />
+    <Compile Include="Entidades\claseReporte.vb" />
+    <Compile Include="Entidades\claseUsuario.vb" />
     <Compile Include="Logica\LogicaMascota.vb" />
     <Compile Include="Logica\LogicaPersona.vb" />
     <Compile Include="Persistencia\Conexion.vb" />
@@ -194,6 +195,8 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Imagenes\fondoUno.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
