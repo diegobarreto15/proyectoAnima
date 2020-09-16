@@ -158,7 +158,7 @@ Partial Class formAltaUsuario
         'btnCancelar
         '
         Me.btnCancelar.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnCancelar.Location = New System.Drawing.Point(610, 341)
+        Me.btnCancelar.Location = New System.Drawing.Point(328, 382)
         Me.btnCancelar.Name = "btnCancelar"
         Me.btnCancelar.Size = New System.Drawing.Size(87, 25)
         Me.btnCancelar.TabIndex = 30

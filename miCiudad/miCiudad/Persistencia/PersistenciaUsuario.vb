@@ -1,32 +1,33 @@
-﻿Public Class PersistenciaUsuario
-    Sub New()
-    End Sub
+﻿Imports Npgsql
+Public Class PersistenciaUsuario
+    Dim Conexion As Npgsql.NpgsqlConnection
 
-    Dim conexionPU = New Npgsql.NpgsqlConnection
-
-    Public Sub altaPersona(personaUser As ClaseUsuario)
+    Public Sub altaUsuario(usuarito As ClaseUsuario)
         Try
             Dim classcnn = New Conexion
-            conexionPU = classcnn.abrirConexion
-            Dim cadenaDeComandos As String
-            cadenaDeComandos = "insert into personas(ci,nombre,direccion) values(@ci,@nombre,@direccion)"
-            Dim cmd As New Npgsql.NpgsqlCommand
-            cmd.Connection = conexionPU
-            cmd.Parameters.Add("@tel", NpgsqlTypes.NpgsqlDbType.Integer).Value = personaUser.Tel
-            cmd.Parameters.Add("@email", NpgsqlTypes.NpgsqlDbType.Integer).Value = personaUser.Email
-            cmd.Parameters.Add("@apellido", NpgsqlTypes.NpgsqlDbType.Integer).Value = personaUser.Apellido
-            cmd.Parameters.Add("@passwd", NpgsqlTypes.NpgsqlDbType.Integer).Value = personaUser.Passwd
-            cmd.Parameters.Add("@tipoUsuario", NpgsqlTypes.NpgsqlDbType.Integer).Value = personaUser.TipoUsuario
-            cmd.Parameters.Add("@ci", NpgsqlTypes.NpgsqlDbType.Integer).Value = personaUser.Ci
-            cmd.Parameters.Add("@nombre", NpgsqlTypes.NpgsqlDbType.Varchar, 50).Value = personaUser.Nombre
+            Conexion = classcnn.abrirConexion
+
+            Dim cmd = New Npgsql.NpgsqlCommand
+            cmd.Connection = Conexion
+            Dim cadenaComandos As String
+            cadenaComandos = "insert into usuarios (tel, pass, email, ci, nombre, apellido,  tipoUsuario) values (@tel, @pass, @email, @ci, @nombre, @apellido,  @tipoUsuario);"
+            cmd.CommandText = cadenaComandos
+
+            cmd.Parameters.Add("@email", NpgsqlTypes.NpgsqlDbType.Varchar, 50).Value = usuarito.Email
+            cmd.Parameters.Add("@tel", NpgsqlTypes.NpgsqlDbType.Integer).Value = usuarito.Tel
+            cmd.Parameters.Add("@pass", NpgsqlTypes.NpgsqlDbType.Varchar, 100).Value = usuarito.Passwd
+            cmd.Parameters.Add("@ci", NpgsqlTypes.NpgsqlDbType.Integer).Value = usuarito.Ci
+            cmd.Parameters.Add("@nombre", NpgsqlTypes.NpgsqlDbType.Varchar, 20).Value = usuarito.Nombre
+            cmd.Parameters.Add("@apellido", NpgsqlTypes.NpgsqlDbType.Varchar, 20).Value = usuarito.Apellido
+            cmd.Parameters.Add("@tipoUsuario", NpgsqlTypes.NpgsqlDbType.Varchar, 10).Value = usuarito.TipoUsuario
 
             Dim resultado As Integer
             resultado = cmd.ExecuteNonQuery()
+
         Catch ex As Exception
             Throw ex
-
         Finally
-            conexionPU.close
+            Conexion.Close()
         End Try
     End Sub
 End Class
