@@ -39,6 +39,8 @@ Partial Class formAltaUsuario
         Me.lblNombre = New System.Windows.Forms.Label()
         Me.tbxCorreo = New System.Windows.Forms.TextBox()
         Me.lblCorreo = New System.Windows.Forms.Label()
+        Me.lblNombreUsuario = New System.Windows.Forms.Label()
+        Me.tbxNombreUsuario = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
         'tbxCi
@@ -70,8 +72,10 @@ Partial Class formAltaUsuario
         '
         'cbxTipoUsuario
         '
+        Me.cbxTipoUsuario.AccessibleRole = System.Windows.Forms.AccessibleRole.None
         Me.cbxTipoUsuario.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cbxTipoUsuario.FormattingEnabled = True
+        Me.cbxTipoUsuario.Items.AddRange(New Object() {"Admin", "Cliente"})
         Me.cbxTipoUsuario.Location = New System.Drawing.Point(328, 258)
         Me.cbxTipoUsuario.Name = "cbxTipoUsuario"
         Me.cbxTipoUsuario.Size = New System.Drawing.Size(145, 28)
@@ -203,6 +207,25 @@ Partial Class formAltaUsuario
         Me.lblCorreo.TabIndex = 26
         Me.lblCorreo.Text = "Correo"
         '
+        'lblNombreUsuario
+        '
+        Me.lblNombreUsuario.AutoSize = True
+        Me.lblNombreUsuario.BackColor = System.Drawing.Color.Transparent
+        Me.lblNombreUsuario.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblNombreUsuario.Location = New System.Drawing.Point(561, 57)
+        Me.lblNombreUsuario.Name = "lblNombreUsuario"
+        Me.lblNombreUsuario.Size = New System.Drawing.Size(145, 20)
+        Me.lblNombreUsuario.TabIndex = 32
+        Me.lblNombreUsuario.Text = "nombre de usuario:"
+        '
+        'tbxNombreUsuario
+        '
+        Me.tbxNombreUsuario.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.tbxNombreUsuario.Location = New System.Drawing.Point(566, 80)
+        Me.tbxNombreUsuario.Name = "tbxNombreUsuario"
+        Me.tbxNombreUsuario.Size = New System.Drawing.Size(145, 26)
+        Me.tbxNombreUsuario.TabIndex = 31
+        '
         'formAltaUsuario
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -210,6 +233,8 @@ Partial Class formAltaUsuario
         Me.BackColor = System.Drawing.Color.White
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.lblNombreUsuario)
+        Me.Controls.Add(Me.tbxNombreUsuario)
         Me.Controls.Add(Me.btnCancelar)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Label8)
@@ -251,4 +276,6 @@ Partial Class formAltaUsuario
     Friend WithEvents lblNombre As Label
     Friend WithEvents tbxCorreo As TextBox
     Friend WithEvents lblCorreo As Label
+    Friend WithEvents lblNombreUsuario As Label
+    Friend WithEvents tbxNombreUsuario As TextBox
 End Class

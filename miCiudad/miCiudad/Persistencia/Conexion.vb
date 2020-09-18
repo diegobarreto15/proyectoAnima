@@ -1,29 +1,20 @@
 ﻿Public Class Conexion
 
     Public Function abrirConexion() As Npgsql.NpgsqlConnection
-        Dim conexion_pg As Npgsql.NpgsqlConnection
-
+        Dim conexion As Npgsql.NpgsqlConnection
         Try
-            conexion_pg = New Npgsql.NpgsqlConnection()
-            Dim cadenaDeConexion As String
-            cadenaDeConexion = "server = 127.0.0.1; port = 5432; username='postgre'; password = 'root'; database= 'miCiudad' "
+            conexion = New Npgsql.NpgsqlConnection
+            Dim cadenaConexion As String
+            cadenaConexion = "Server=127.0.0.1;Port=5432;User Id='postgres';Password='root';Database =miCiudad"
 
-            conexion_pg.ConnectionString = cadenaDeConexion
-            conexion_pg.Open()
+            conexion.ConnectionString = cadenaConexion
+            conexion.Open()
 
         Catch ex As Exception
             Throw ex
         End Try
 
-        Return conexion_pg
-
+        Return conexion
     End Function
-
-
-
-
-
-
-
 
 End Class

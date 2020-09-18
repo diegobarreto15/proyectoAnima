@@ -1,4 +1,5 @@
 ﻿Public Class formAltaUsuario
+
     Private Sub btnAceptar_Click(sender As Object, e As EventArgs) Handles btnAceptar.Click
         Try
             Dim telUsuario As Integer
@@ -16,8 +17,14 @@
             Dim apellidoUsuario As String
             apellidoUsuario = tbxApellido.Text
 
-            Dim tipoUsuarioUsuario As Integer
-            tipoUsuarioUsuario = cbxTipoUsuario.Items.ToString
+            Dim tipoUsuario As String
+            tipoUsuario = cbxTipoUsuario.Items.ToString()
+
+            Dim userName As String
+            userName = tbxNombreUsuario.Text
+
+            Dim contrasenia As String
+            contrasenia = tbxContrasenia.Text
 
             Dim usuarioNueva = New ClaseUsuario()
             usuarioNueva.Tel = telUsuario
@@ -25,7 +32,9 @@
             usuarioNueva.Ci = ciUsuario
             usuarioNueva.Nombre = nombreUsuario
             usuarioNueva.Apellido = apellidoUsuario
-            usuarioNueva.TipoUsuario = tipoUsuarioUsuario
+            usuarioNueva.Tipo = tipoUsuario
+            usuarioNueva.UserName = userName
+            usuarioNueva.Passwd = contrasenia
 
             Dim newUsuarioNueva As New ClaseUsuario()
             newUsuarioNueva.Tel = telUsuario
@@ -33,7 +42,9 @@
             newUsuarioNueva.Ci = ciUsuario
             newUsuarioNueva.Nombre = nombreUsuario
             newUsuarioNueva.Apellido = apellidoUsuario
-            newUsuarioNueva.TipoUsuario = tipoUsuarioUsuario
+            newUsuarioNueva.Tipo = tipoUsuario
+            newUsuarioNueva.UserName = userName
+            'newUsuarioNueva.Passwd = contrasenia
 
             Dim logica As New LogicaUsuario()
             logica.altaUsuario(usuarioNueva)
@@ -42,7 +53,5 @@
         End Try
     End Sub
 
-    Private Sub cbxTipoUsuario_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cbxTipoUsuario.SelectedIndexChanged
 
-    End Sub
 End Class
