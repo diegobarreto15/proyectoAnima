@@ -147,3 +147,4 @@ C:\Users\Alumno\Desktop\miCiudad\proyectoAnima\miCiudad\miCiudad\bin\Debug\Syste
 C:\Users\Alumno\Desktop\miCiudad\proyectoAnima\miCiudad\miCiudad\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\Alumno\Desktop\miCiudad\proyectoAnima\miCiudad\miCiudad\bin\Debug\System.ValueTuple.xml
 C:\Users\Alumno\Desktop\miCiudad\proyectoAnima\miCiudad\miCiudad\obj\Debug\miCiudad.vbproj.CopyComplete
+C:\Users\Alumno\Desktop\miCiudad\proyectoAnima\miCiudad\miCiudad\obj\Debug\miCiudad.formAltaReporte.resources

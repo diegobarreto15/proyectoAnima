@@ -4,7 +4,17 @@
     Private _estado As String
     Private _ci As Integer
     Private _id As Integer
+    Private _imagen As Image
     'imagen BYTEA 
+
+    Public Property Imagen As Image
+        Get
+            Return _imagen
+        End Get
+        Set(value As Image)
+            _imagen = value
+        End Set
+    End Property
 
     Public Property Descripcion As String
         Get
@@ -55,8 +65,9 @@
 
     End Sub
 
-    Public Sub ClaseReporte(descripcion_ As String, direccion_ As String, estado_ As String, ci_ As Integer, id_ As Integer)
+    Public Sub ClaseReporte(descripcion_ As String, imagen_ As Image, direccion_ As String, estado_ As String, ci_ As Integer, id_ As Integer)
         Descripcion = descripcion_
+        Imagen = imagen_
         Direccion = direccion_
         Estado = estado_
         Ci = ci_

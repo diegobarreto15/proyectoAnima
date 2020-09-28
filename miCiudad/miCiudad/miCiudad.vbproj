@@ -105,8 +105,9 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Entidades\claseReporte.vb" />
+    <Compile Include="Entidades\ClaseReporte.vb" />
     <Compile Include="Entidades\ClaseUsuario.vb" />
+    <Compile Include="Logica\LogicaReporte.vb" />
     <Compile Include="Logica\LogicaUsuario.vb" />
     <Compile Include="My Project\Resources.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -114,7 +115,14 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <Compile Include="Persistencia\Conexion.vb" />
+    <Compile Include="Persistencia\PersistenciaReporte.vb" />
     <Compile Include="Persistencia\PersistenciaUsuario.vb" />
+    <Compile Include="Presentacion\altaReporte.Designer.vb">
+      <DependentUpon>altaReporte.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\altaReporte.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Presentacion\bajaUsuarioForm.Designer.vb">
       <DependentUpon>bajaUsuarioForm.vb</DependentUpon>
     </Compile>
@@ -158,6 +166,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Presentacion\altaReporte.resx">
+      <DependentUpon>altaReporte.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Presentacion\asignarEstadoReporteForm.resx">
       <DependentUpon>asignarEstadoReporteForm.vb</DependentUpon>
     </EmbeddedResource>

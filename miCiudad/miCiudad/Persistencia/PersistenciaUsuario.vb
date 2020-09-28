@@ -9,9 +9,9 @@ Public Class PersistenciaUsuario
             conexion = classcnn.abrirConexion
 
             Dim cmd = New Npgsql.NpgsqlCommand
-            cmd.Connection = Conexion
+            cmd.Connection = conexion
             Dim cadenaComandos As String
-            cadenaComandos = "insert into usuarios (tel, password, email, ci, name, surname, userType, userName) values (@tel, @password, @email, @ci, @name, @surname,  @userType, @userName);"
+            cadenaComandos = "insert into Usuarios (tel, password, email, ci, name, surname, userType, userName) values (@tel, @password, @email, @ci, @name, @surname,  @userType, @userName);"
             cmd.CommandText = cadenaComandos
 
             cmd.Parameters.Add("@email", NpgsqlTypes.NpgsqlDbType.Varchar, 50).Value = usuarito.Email
@@ -27,7 +27,7 @@ Public Class PersistenciaUsuario
         Catch ex As Exception
             Throw ex
         Finally
-            Conexion.Close()
+            conexion.Close()
         End Try
     End Sub
 End Class
