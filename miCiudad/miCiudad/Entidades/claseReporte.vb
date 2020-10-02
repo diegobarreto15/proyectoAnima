@@ -4,14 +4,14 @@
     Private _estado As String
     Private _ci As Integer
     Private _id As Integer
-    Private _imagen As Image
+    Private _imagen As Byte()
     'imagen BYTEA 
 
-    Public Property Imagen As Image
+    Public Property Imagen As Byte()
         Get
             Return _imagen
         End Get
-        Set(value As Image)
+        Set(value As Byte())
             _imagen = value
         End Set
     End Property
@@ -65,7 +65,7 @@
 
     End Sub
 
-    Public Sub ClaseReporte(descripcion_ As String, imagen_ As Image, direccion_ As String, estado_ As String, ci_ As Integer, id_ As Integer)
+    Public Sub ClaseReporte(descripcion_ As String, imagen_ As Byte(), direccion_ As String, estado_ As String, ci_ As Integer, id_ As Integer)
         Descripcion = descripcion_
         Imagen = imagen_
         Direccion = direccion_
