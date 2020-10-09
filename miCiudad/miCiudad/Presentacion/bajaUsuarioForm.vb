@@ -5,6 +5,10 @@
         si = MsgBox("¿Desea eliminar este usuario de la base de datos?", vbYesNo, "Eliminar Usuario")
         If si = 6 Then
             eliminar = "DELETE FROM Miciudad WHERE cedula='" & tbxCI.Text And "'"
+            comandos = New PostgresCommand(eliminar, Conexion)
+            comandos.ExecuteNonQuery()
+            MsgBox("Eliminado")
+            tbxCI.Clear()
 
         End If
 
