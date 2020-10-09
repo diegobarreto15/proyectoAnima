@@ -36,14 +36,14 @@
             usuarioNueva.UserName = userName
             usuarioNueva.Passwd = contrasenia
 
-            Dim newUsuarioNueva As New ClaseUsuario()
-            newUsuarioNueva.Tel = telUsuario
-            newUsuarioNueva.Email = emailUsuario
-            newUsuarioNueva.Ci = ciUsuario
-            newUsuarioNueva.Nombre = nombreUsuario
-            newUsuarioNueva.Apellido = apellidoUsuario
-            newUsuarioNueva.Tipo = tipoUsuario
-            newUsuarioNueva.UserName = userName
+            'Dim newUsuarioNueva As New ClaseUsuario()
+            'newUsuarioNueva.Tel = telUsuario
+            'newUsuarioNueva.Email = emailUsuario
+            'newUsuarioNueva.Ci = ciUsuario
+            'newUsuarioNueva.Nombre = nombreUsuario
+            'newUsuarioNueva.Apellido = apellidoUsuario
+            'newUsuarioNueva.Tipo = tipoUsuario
+            'newUsuarioNueva.UserName = userName
             'newUsuarioNueva.Passwd = contrasenia
 
             Dim logica As New LogicaUsuario()
