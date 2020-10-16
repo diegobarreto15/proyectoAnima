@@ -60,6 +60,7 @@ Partial Class asignarEstadoReporteForm
         'cbxEstadoReporte
         '
         Me.cbxEstadoReporte.FormattingEnabled = True
+        Me.cbxEstadoReporte.Items.AddRange(New Object() {"Rechazado", "Pendiente ", "En revision", "Solucionado"})
         Me.cbxEstadoReporte.Location = New System.Drawing.Point(366, 137)
         Me.cbxEstadoReporte.Name = "cbxEstadoReporte"
         Me.cbxEstadoReporte.Size = New System.Drawing.Size(100, 21)

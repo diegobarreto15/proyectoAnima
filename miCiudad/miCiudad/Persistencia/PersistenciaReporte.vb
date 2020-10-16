@@ -18,7 +18,7 @@ Public Class PersistenciaReporte
             cmd.Parameters.Add("@direction", NpgsqlTypes.NpgsqlDbType.Varchar, 50).Value = reportesito.Direccion
             cmd.Parameters.Add("@state", NpgsqlTypes.NpgsqlDbType.Varchar, 50).Value = reportesito.Estado
             cmd.Parameters.Add("@ci", NpgsqlTypes.NpgsqlDbType.Integer).Value = reportesito.Ci
-            cmd.Parameters.Add("@Image", NpgsqlTypes.NpgsqlDbType.Bytea).Value = reportesito.Imagen
+            cmd.Parameters.Add("@image", NpgsqlTypes.NpgsqlDbType.Bytea).Value = reportesito.Imagen
 
 
             cmd.ExecuteReader()
