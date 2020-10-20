@@ -24,8 +24,8 @@ Partial Class asignarEstadoReporteForm
     Private Sub InitializeComponent()
         Me.lblAltaUser = New System.Windows.Forms.Label()
         Me.lblIDreporte = New System.Windows.Forms.Label()
-        Me.tbxIdReporte = New System.Windows.Forms.TextBox()
-        Me.cbxEstadoReporte = New System.Windows.Forms.ComboBox()
+        Me.tbxId = New System.Windows.Forms.TextBox()
+        Me.cbxEstado = New System.Windows.Forms.ComboBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.btnCancelarModReporte = New System.Windows.Forms.Button()
         Me.btnAceptarModReport = New System.Windows.Forms.Button()
@@ -50,21 +50,21 @@ Partial Class asignarEstadoReporteForm
         Me.lblIDreporte.TabIndex = 32
         Me.lblIDreporte.Text = "ID del reporte :"
         '
-        'tbxIdReporte
+        'tbxId
         '
-        Me.tbxIdReporte.Location = New System.Drawing.Point(366, 102)
-        Me.tbxIdReporte.Name = "tbxIdReporte"
-        Me.tbxIdReporte.Size = New System.Drawing.Size(100, 20)
-        Me.tbxIdReporte.TabIndex = 31
+        Me.tbxId.Location = New System.Drawing.Point(366, 102)
+        Me.tbxId.Name = "tbxId"
+        Me.tbxId.Size = New System.Drawing.Size(100, 20)
+        Me.tbxId.TabIndex = 31
         '
-        'cbxEstadoReporte
+        'cbxEstado
         '
-        Me.cbxEstadoReporte.FormattingEnabled = True
-        Me.cbxEstadoReporte.Items.AddRange(New Object() {"Rechazado", "Pendiente ", "En revision", "Solucionado"})
-        Me.cbxEstadoReporte.Location = New System.Drawing.Point(366, 137)
-        Me.cbxEstadoReporte.Name = "cbxEstadoReporte"
-        Me.cbxEstadoReporte.Size = New System.Drawing.Size(100, 21)
-        Me.cbxEstadoReporte.TabIndex = 33
+        Me.cbxEstado.FormattingEnabled = True
+        Me.cbxEstado.Items.AddRange(New Object() {"Rechazado", "Pendiente ", "En revision", "Solucionado"})
+        Me.cbxEstado.Location = New System.Drawing.Point(366, 137)
+        Me.cbxEstado.Name = "cbxEstado"
+        Me.cbxEstado.Size = New System.Drawing.Size(100, 21)
+        Me.cbxEstado.TabIndex = 33
         '
         'Label1
         '
@@ -101,9 +101,9 @@ Partial Class asignarEstadoReporteForm
         Me.Controls.Add(Me.btnCancelarModReporte)
         Me.Controls.Add(Me.btnAceptarModReport)
         Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.cbxEstadoReporte)
+        Me.Controls.Add(Me.cbxEstado)
         Me.Controls.Add(Me.lblIDreporte)
-        Me.Controls.Add(Me.tbxIdReporte)
+        Me.Controls.Add(Me.tbxId)
         Me.Controls.Add(Me.lblAltaUser)
         Me.Name = "asignarEstadoReporteForm"
         Me.Text = "Asignar estado"
@@ -114,8 +114,8 @@ Partial Class asignarEstadoReporteForm
 
     Friend WithEvents lblAltaUser As Label
     Friend WithEvents lblIDreporte As Label
-    Friend WithEvents tbxIdReporte As TextBox
-    Friend WithEvents cbxEstadoReporte As ComboBox
+    Friend WithEvents tbxId As TextBox
+    Friend WithEvents cbxEstado As ComboBox
     Friend WithEvents Label1 As Label
     Friend WithEvents btnCancelarModReporte As Button
     Friend WithEvents btnAceptarModReport As Button

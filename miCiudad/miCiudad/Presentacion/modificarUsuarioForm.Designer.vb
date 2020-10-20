@@ -22,12 +22,12 @@ Partial Class modificarUserForm
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.cbxUserTypeMOD = New System.Windows.Forms.ComboBox()
-        Me.tbxTelefonoMOD = New System.Windows.Forms.TextBox()
-        Me.tbxCorreoMOD = New System.Windows.Forms.TextBox()
-        Me.tbxContraseñaMOD = New System.Windows.Forms.TextBox()
-        Me.tbxApellidoMOD = New System.Windows.Forms.TextBox()
-        Me.tbxNombreMOD = New System.Windows.Forms.TextBox()
+        Me.cbxTipoUsuario = New System.Windows.Forms.ComboBox()
+        Me.tbxTelefono = New System.Windows.Forms.TextBox()
+        Me.tbxCorreo = New System.Windows.Forms.TextBox()
+        Me.tbxContrasenia = New System.Windows.Forms.TextBox()
+        Me.tbxApellido = New System.Windows.Forms.TextBox()
+        Me.tbxNombre = New System.Windows.Forms.TextBox()
         Me.lbltipoUsuarioMOD = New System.Windows.Forms.Label()
         Me.lblContraseñaMOD = New System.Windows.Forms.Label()
         Me.lblCorreoMOD = New System.Windows.Forms.Label()
@@ -35,54 +35,56 @@ Partial Class modificarUserForm
         Me.lblApellidoMOD = New System.Windows.Forms.Label()
         Me.lblNombreMOD = New System.Windows.Forms.Label()
         Me.lblCIMOD = New System.Windows.Forms.Label()
-        Me.tbxCImMOD = New System.Windows.Forms.TextBox()
+        Me.tbxCi = New System.Windows.Forms.TextBox()
         Me.lblAltaUser = New System.Windows.Forms.Label()
         Me.btnCancelarMOD = New System.Windows.Forms.Button()
         Me.btnAceptarMOD = New System.Windows.Forms.Button()
+        Me.tbxNombreUsuario = New System.Windows.Forms.TextBox()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
-        'cbxUserTypeMOD
+        'cbxTipoUsuario
         '
-        Me.cbxUserTypeMOD.FormattingEnabled = True
-        Me.cbxUserTypeMOD.Location = New System.Drawing.Point(367, 309)
-        Me.cbxUserTypeMOD.Name = "cbxUserTypeMOD"
-        Me.cbxUserTypeMOD.Size = New System.Drawing.Size(100, 21)
-        Me.cbxUserTypeMOD.TabIndex = 28
+        Me.cbxTipoUsuario.FormattingEnabled = True
+        Me.cbxTipoUsuario.Location = New System.Drawing.Point(367, 309)
+        Me.cbxTipoUsuario.Name = "cbxTipoUsuario"
+        Me.cbxTipoUsuario.Size = New System.Drawing.Size(100, 21)
+        Me.cbxTipoUsuario.TabIndex = 28
         '
-        'tbxTelefonoMOD
+        'tbxTelefono
         '
-        Me.tbxTelefonoMOD.Location = New System.Drawing.Point(367, 215)
-        Me.tbxTelefonoMOD.Name = "tbxTelefonoMOD"
-        Me.tbxTelefonoMOD.Size = New System.Drawing.Size(100, 20)
-        Me.tbxTelefonoMOD.TabIndex = 27
+        Me.tbxTelefono.Location = New System.Drawing.Point(367, 215)
+        Me.tbxTelefono.Name = "tbxTelefono"
+        Me.tbxTelefono.Size = New System.Drawing.Size(100, 20)
+        Me.tbxTelefono.TabIndex = 27
         '
-        'tbxCorreoMOD
+        'tbxCorreo
         '
-        Me.tbxCorreoMOD.Location = New System.Drawing.Point(367, 247)
-        Me.tbxCorreoMOD.Name = "tbxCorreoMOD"
-        Me.tbxCorreoMOD.Size = New System.Drawing.Size(100, 20)
-        Me.tbxCorreoMOD.TabIndex = 26
+        Me.tbxCorreo.Location = New System.Drawing.Point(367, 247)
+        Me.tbxCorreo.Name = "tbxCorreo"
+        Me.tbxCorreo.Size = New System.Drawing.Size(100, 20)
+        Me.tbxCorreo.TabIndex = 26
         '
-        'tbxContraseñaMOD
+        'tbxContrasenia
         '
-        Me.tbxContraseñaMOD.Location = New System.Drawing.Point(367, 280)
-        Me.tbxContraseñaMOD.Name = "tbxContraseñaMOD"
-        Me.tbxContraseñaMOD.Size = New System.Drawing.Size(100, 20)
-        Me.tbxContraseñaMOD.TabIndex = 25
+        Me.tbxContrasenia.Location = New System.Drawing.Point(367, 280)
+        Me.tbxContrasenia.Name = "tbxContrasenia"
+        Me.tbxContrasenia.Size = New System.Drawing.Size(100, 20)
+        Me.tbxContrasenia.TabIndex = 25
         '
-        'tbxApellidoMOD
+        'tbxApellido
         '
-        Me.tbxApellidoMOD.Location = New System.Drawing.Point(367, 184)
-        Me.tbxApellidoMOD.Name = "tbxApellidoMOD"
-        Me.tbxApellidoMOD.Size = New System.Drawing.Size(100, 20)
-        Me.tbxApellidoMOD.TabIndex = 24
+        Me.tbxApellido.Location = New System.Drawing.Point(367, 184)
+        Me.tbxApellido.Name = "tbxApellido"
+        Me.tbxApellido.Size = New System.Drawing.Size(100, 20)
+        Me.tbxApellido.TabIndex = 24
         '
-        'tbxNombreMOD
+        'tbxNombre
         '
-        Me.tbxNombreMOD.Location = New System.Drawing.Point(367, 150)
-        Me.tbxNombreMOD.Name = "tbxNombreMOD"
-        Me.tbxNombreMOD.Size = New System.Drawing.Size(100, 20)
-        Me.tbxNombreMOD.TabIndex = 23
+        Me.tbxNombre.Location = New System.Drawing.Point(367, 150)
+        Me.tbxNombre.Name = "tbxNombre"
+        Me.tbxNombre.Size = New System.Drawing.Size(100, 20)
+        Me.tbxNombre.TabIndex = 23
         '
         'lbltipoUsuarioMOD
         '
@@ -147,12 +149,12 @@ Partial Class modificarUserForm
         Me.lblCIMOD.TabIndex = 16
         Me.lblCIMOD.Text = "CI :"
         '
-        'tbxCImMOD
+        'tbxCi
         '
-        Me.tbxCImMOD.Location = New System.Drawing.Point(367, 118)
-        Me.tbxCImMOD.Name = "tbxCImMOD"
-        Me.tbxCImMOD.Size = New System.Drawing.Size(100, 20)
-        Me.tbxCImMOD.TabIndex = 15
+        Me.tbxCi.Location = New System.Drawing.Point(367, 118)
+        Me.tbxCi.Name = "tbxCi"
+        Me.tbxCi.Size = New System.Drawing.Size(100, 20)
+        Me.tbxCi.TabIndex = 15
         '
         'lblAltaUser
         '
@@ -182,20 +184,38 @@ Partial Class modificarUserForm
         Me.btnAceptarMOD.Text = "Aceptar"
         Me.btnAceptarMOD.UseVisualStyleBackColor = True
         '
+        'tbxNombreUsuario
+        '
+        Me.tbxNombreUsuario.Location = New System.Drawing.Point(367, 92)
+        Me.tbxNombreUsuario.Name = "tbxNombreUsuario"
+        Me.tbxNombreUsuario.Size = New System.Drawing.Size(100, 20)
+        Me.tbxNombreUsuario.TabIndex = 33
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(280, 99)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(50, 13)
+        Me.Label1.TabIndex = 32
+        Me.Label1.Text = "Nombre :"
+        '
         'modificarUserForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.tbxNombreUsuario)
+        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.btnCancelarMOD)
         Me.Controls.Add(Me.btnAceptarMOD)
         Me.Controls.Add(Me.lblAltaUser)
-        Me.Controls.Add(Me.cbxUserTypeMOD)
-        Me.Controls.Add(Me.tbxTelefonoMOD)
-        Me.Controls.Add(Me.tbxCorreoMOD)
-        Me.Controls.Add(Me.tbxContraseñaMOD)
-        Me.Controls.Add(Me.tbxApellidoMOD)
-        Me.Controls.Add(Me.tbxNombreMOD)
+        Me.Controls.Add(Me.cbxTipoUsuario)
+        Me.Controls.Add(Me.tbxTelefono)
+        Me.Controls.Add(Me.tbxCorreo)
+        Me.Controls.Add(Me.tbxContrasenia)
+        Me.Controls.Add(Me.tbxApellido)
+        Me.Controls.Add(Me.tbxNombre)
         Me.Controls.Add(Me.lbltipoUsuarioMOD)
         Me.Controls.Add(Me.lblContraseñaMOD)
         Me.Controls.Add(Me.lblCorreoMOD)
@@ -203,7 +223,7 @@ Partial Class modificarUserForm
         Me.Controls.Add(Me.lblApellidoMOD)
         Me.Controls.Add(Me.lblNombreMOD)
         Me.Controls.Add(Me.lblCIMOD)
-        Me.Controls.Add(Me.tbxCImMOD)
+        Me.Controls.Add(Me.tbxCi)
         Me.Name = "modificarUserForm"
         Me.Text = "Modificar usuario"
         Me.ResumeLayout(False)
@@ -211,12 +231,12 @@ Partial Class modificarUserForm
 
     End Sub
 
-    Friend WithEvents cbxUserTypeMOD As ComboBox
-    Friend WithEvents tbxTelefonoMOD As TextBox
-    Friend WithEvents tbxCorreoMOD As TextBox
-    Friend WithEvents tbxContraseñaMOD As TextBox
-    Friend WithEvents tbxApellidoMOD As TextBox
-    Friend WithEvents tbxNombreMOD As TextBox
+    Friend WithEvents cbxTipoUsuario As ComboBox
+    Friend WithEvents tbxTelefono As TextBox
+    Friend WithEvents tbxCorreo As TextBox
+    Friend WithEvents tbxContrasenia As TextBox
+    Friend WithEvents tbxApellido As TextBox
+    Friend WithEvents tbxNombre As TextBox
     Friend WithEvents lbltipoUsuarioMOD As Label
     Friend WithEvents lblContraseñaMOD As Label
     Friend WithEvents lblCorreoMOD As Label
@@ -224,8 +244,10 @@ Partial Class modificarUserForm
     Friend WithEvents lblApellidoMOD As Label
     Friend WithEvents lblNombreMOD As Label
     Friend WithEvents lblCIMOD As Label
-    Friend WithEvents tbxCImMOD As TextBox
+    Friend WithEvents tbxCi As TextBox
     Friend WithEvents lblAltaUser As Label
     Friend WithEvents btnCancelarMOD As Button
     Friend WithEvents btnAceptarMOD As Button
+    Friend WithEvents tbxNombreUsuario As TextBox
+    Friend WithEvents Label1 As Label
 End Class

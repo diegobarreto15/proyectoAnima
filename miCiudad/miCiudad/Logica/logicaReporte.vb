@@ -1,6 +1,6 @@
 ﻿Public Class LogicaReporte
-    Public Sub altaReporte(reportesito As claseReporte)
+    Public Sub asignarReporte(reportesito As claseReporte)
         Dim persistencia As New PersistenciaReporte
-        persistencia.altaReporte(reportesito)
+        persistencia.asignarReporte(reportesito)
     End Sub
 End Class
