@@ -5,4 +5,8 @@
         cbxEstadoReporte.Items.Add("En revision")
         cbxEstadoReporte.Items.Add("En proceso")
     End Sub
+
+    Private Sub btnAceptarModReport_Click(sender As Object, e As EventArgs) Handles btnAceptarModReport.Click
+
+    End Sub
 End Class
