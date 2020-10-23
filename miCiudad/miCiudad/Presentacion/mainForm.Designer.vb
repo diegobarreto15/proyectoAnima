@@ -29,7 +29,6 @@ Partial Class mainForm
         Me.ModificarUsuarioToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ReportesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AsignarEstadoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.AltaReporteToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -69,7 +68,7 @@ Partial Class mainForm
         '
         'ReportesToolStripMenuItem
         '
-        Me.ReportesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AsignarEstadoToolStripMenuItem, Me.AltaReporteToolStripMenuItem})
+        Me.ReportesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AsignarEstadoToolStripMenuItem})
         Me.ReportesToolStripMenuItem.Name = "ReportesToolStripMenuItem"
         Me.ReportesToolStripMenuItem.Size = New System.Drawing.Size(65, 20)
         Me.ReportesToolStripMenuItem.Text = "Reportes"
@@ -79,12 +78,6 @@ Partial Class mainForm
         Me.AsignarEstadoToolStripMenuItem.Name = "AsignarEstadoToolStripMenuItem"
         Me.AsignarEstadoToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.AsignarEstadoToolStripMenuItem.Text = "Asignar estado "
-        '
-        'AltaReporteToolStripMenuItem
-        '
-        Me.AltaReporteToolStripMenuItem.Name = "AltaReporteToolStripMenuItem"
-        Me.AltaReporteToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.AltaReporteToolStripMenuItem.Text = "Alta reporte"
         '
         'mainForm
         '
@@ -109,5 +102,4 @@ Partial Class mainForm
     Friend WithEvents ModificarUsuarioToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ReportesToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents AsignarEstadoToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents AltaReporteToolStripMenuItem As ToolStripMenuItem
 End Class

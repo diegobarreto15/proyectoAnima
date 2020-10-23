@@ -13,7 +13,8 @@ Public Class PersistenciaReporte
             Dim cmd = New Npgsql.NpgsqlCommand
             cmd.Connection = conexion
             Dim cadenaComandos As String
-            cadenaComandos = "insert into Reportes (description, direction, state, id, ci, image) values (@description, @direction, @state, DEFAULT, @ci, @image);"
+
+            cadenaComandos = "UPDATE Reportes SET state=@state WHERE id = @id;"
             cmd.CommandText = cadenaComandos
 
             cmd.Parameters.Add("@id", NpgsqlTypes.NpgsqlDbType.Varchar, 100).Value = reportesito.Descripcion

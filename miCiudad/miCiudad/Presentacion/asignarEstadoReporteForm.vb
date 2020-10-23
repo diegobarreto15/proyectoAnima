@@ -5,7 +5,7 @@
         Try
 
             Dim estadoReporte As String
-            estadoReporte = cbxEstado.Items.ToString()
+            estadoReporte = cbxEstado.SelectedItem.ToString()
 
             Dim id As String
             id = tbxId.Text

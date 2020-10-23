@@ -12,7 +12,7 @@ Public Class PersistenciaUsuario
             cmd.Connection = conexion
             Dim cadenaComandos As String
 
-            cadenaComandos = "UPDATE Usuarios SET tel=@tel, password=@password, email=@email, name=@name, surname=@surname, userType=@userType, userName=@userType WHERE ci = @ci;"
+            cadenaComandos = "UPDATE users SET tel=@tel, password=md5(@password), email=@email, name=@name, surname=@surname, userType=@userType, userName=@userType WHERE ci = @ci;"
             cmd.CommandText = cadenaComandos
 
             cmd.Parameters.Add("@email", NpgsqlTypes.NpgsqlDbType.Varchar, 50).Value = usuarito.Email
@@ -42,7 +42,7 @@ Public Class PersistenciaUsuario
             Dim cmd = New Npgsql.NpgsqlCommand
             cmd.Connection = conexion
             Dim cadenaComandos As String
-            cadenaComandos = "insert into Usuarios (tel, password, email, ci, name, surname, userType, userName) values (@tel, @password, @email, @ci, @name, @surname,  @userType, @userName);"
+            cadenaComandos = " insert into users (tel, password, email, ci, name, surname, userType, userName) values(@tel, md5(@password), @email, @ci, @name, @surname, @userType, @userName);"
             cmd.CommandText = cadenaComandos
 
             cmd.Parameters.Add("@email", NpgsqlTypes.NpgsqlDbType.Varchar, 50).Value = usuarito.Email

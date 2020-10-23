@@ -46,6 +46,7 @@ Partial Class modificarUserForm
         'cbxTipoUsuario
         '
         Me.cbxTipoUsuario.FormattingEnabled = True
+        Me.cbxTipoUsuario.Items.AddRange(New Object() {"Adm", "Cliente"})
         Me.cbxTipoUsuario.Location = New System.Drawing.Point(367, 309)
         Me.cbxTipoUsuario.Name = "cbxTipoUsuario"
         Me.cbxTipoUsuario.Size = New System.Drawing.Size(100, 21)

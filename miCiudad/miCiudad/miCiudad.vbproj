@@ -117,12 +117,6 @@
     <Compile Include="Persistencia\Conexion.vb" />
     <Compile Include="Persistencia\PersistenciaReporte.vb" />
     <Compile Include="Persistencia\PersistenciaUsuario.vb" />
-    <Compile Include="Presentacion\altaReporte.Designer.vb">
-      <DependentUpon>altaReporte.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Presentacion\altaReporte.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="Presentacion\bajaUsuarioForm.Designer.vb">
       <DependentUpon>bajaUsuarioForm.vb</DependentUpon>
     </Compile>
@@ -166,9 +160,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Presentacion\altaReporte.resx">
-      <DependentUpon>altaReporte.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Presentacion\asignarEstadoReporteForm.resx">
       <DependentUpon>asignarEstadoReporteForm.vb</DependentUpon>
     </EmbeddedResource>

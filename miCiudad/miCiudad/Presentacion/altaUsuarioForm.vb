@@ -18,7 +18,7 @@
             apellidoUsuario = tbxApellido.Text
 
             Dim tipoUsuario As String
-            tipoUsuario = cbxTipoUsuario.Items.ToString()
+            tipoUsuario = cbxTipoUsuario.SelectedItem.ToString()
 
             Dim userName As String
             userName = tbxNombreUsuario.Text
