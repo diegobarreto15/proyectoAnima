@@ -3,7 +3,11 @@
         formAltaUsuario.ShowDialog()
     End Sub
 
-    Private Sub AltaReporteToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AltaReporteToolStripMenuItem.Click
-        formAltaReporte.ShowDialog()
+    Private Sub ModificarUsuarioToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ModificarUsuarioToolStripMenuItem.Click
+        modificarUserForm.ShowDialog()
+    End Sub
+
+    Private Sub AsignarEstadoToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AsignarEstadoToolStripMenuItem.Click
+        asignarEstadoReporteForm.ShowDialog()
     End Sub
 End Class

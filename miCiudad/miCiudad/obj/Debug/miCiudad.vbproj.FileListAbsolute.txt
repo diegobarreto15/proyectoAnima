@@ -147,6 +147,7 @@ C:\Users\Alumno\Desktop\miCiudad\proyectoAnima\miCiudad\miCiudad\bin\Debug\Syste
 C:\Users\Alumno\Desktop\miCiudad\proyectoAnima\miCiudad\miCiudad\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\Alumno\Desktop\miCiudad\proyectoAnima\miCiudad\miCiudad\bin\Debug\System.ValueTuple.xml
 C:\Users\Alumno\Desktop\miCiudad\proyectoAnima\miCiudad\miCiudad\obj\Debug\miCiudad.vbproj.CopyComplete
+<<<<<<< HEAD
 C:\Users\Alumno\Desktop\miCiudad\proyectoAnima\miCiudad\miCiudad\obj\Debug\miCiudad.formAltaReporte.resources
 C:\Users\Alumno\repos\proyectoAnima\miCiudad\miCiudad\obj\Debug\miCiudad.vbprojAssemblyReference.cache
 C:\Users\Alumno\repos\proyectoAnima\miCiudad\miCiudad\obj\Debug\miCiudad.exe.config
@@ -283,3 +284,5 @@ C:\Users\Alumno\repos\proyectoAnima\miCiudad\miCiudad\bin\Debug\System.Text.Json
 C:\Users\Alumno\repos\proyectoAnima\miCiudad\miCiudad\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\Alumno\repos\proyectoAnima\miCiudad\miCiudad\bin\Debug\System.ValueTuple.xml
 C:\Users\Alumno\repos\proyectoAnima\miCiudad\miCiudad\obj\Debug\miCiudad.vbproj.CopyComplete
+=======
+>>>>>>> 6a778b8edca208ee5e8811800a9fdb7ac348a3f1
