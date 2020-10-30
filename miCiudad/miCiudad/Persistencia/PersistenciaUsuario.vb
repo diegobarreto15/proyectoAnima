@@ -61,4 +61,37 @@ Public Class PersistenciaUsuario
             conexion.Close()
         End Try
     End Sub
+
+    Public Function bajaUsuario(usuarito As ClaseUsuario) As Boolean
+        Try
+            Dim classcnn = New Conexion
+            conexion = classcnn.abrirConexion
+
+            Dim cmd = New Npgsql.NpgsqlCommand
+
+
+            cmd.Connection = conexion
+            Dim cadenaComandos As String
+            cadenaComandos = "DELETE FROM Usuario WHERE cedula = @ci"
+            cmd.CommandText = cadenaComandos
+
+            cmd.Parameters.Add("@ci", NpgsqlTypes.NpgsqlDbType.Integer).Value = usuarito.Ci
+
+
+            Dim resultado As Integer
+            resultado = cmd.ExecuteNonQuery
+            If resultado >= 1 Then
+                Return True
+            Else
+                Return False
+            End If
+
+        Catch ex As Exception
+            Throw ex
+        Finally
+            conexion.Close()
+        End Try
+    End Function
+
+
 End Class

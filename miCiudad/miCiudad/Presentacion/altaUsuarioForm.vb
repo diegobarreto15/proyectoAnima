@@ -42,6 +42,31 @@
             End If
 
 
+<<<<<<< HEAD
+=======
+            Dim usuarioNueva = New ClaseUsuario()
+            usuarioNueva.Tel = telUsuario
+            usuarioNueva.Email = emailUsuario
+            usuarioNueva.Ci = ciUsuario
+            usuarioNueva.Nombre = nombreUsuario
+            usuarioNueva.Apellido = apellidoUsuario
+            usuarioNueva.Tipo = tipoUsuario
+            usuarioNueva.UserName = userName
+            usuarioNueva.Passwd = contrasenia
+
+            'Dim newUsuarioNueva As New ClaseUsuario()
+            'newUsuarioNueva.Tel = telUsuario
+            'newUsuarioNueva.Email = emailUsuario
+            'newUsuarioNueva.Ci = ciUsuario
+            'newUsuarioNueva.Nombre = nombreUsuario
+            'newUsuarioNueva.Apellido = apellidoUsuario
+            'newUsuarioNueva.Tipo = tipoUsuario
+            'newUsuarioNueva.UserName = userName
+            'newUsuarioNueva.Passwd = contrasenia
+
+            Dim logica As New LogicaUsuario()
+            logica.altaUsuario(usuarioNueva)
+>>>>>>> b49a60fd3bd708f55f651a2c50566688926bb851
         Catch ex As Exception
             MsgBox("un error: " + ex.Message)
         End Try
