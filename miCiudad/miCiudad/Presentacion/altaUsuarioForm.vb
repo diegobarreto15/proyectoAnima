@@ -17,43 +17,43 @@
             Dim apellidoUsuario As String
             apellidoUsuario = tbxApellido.Text
 
-            Dim tipoUsuario As String
-            tipoUsuario = cbxTipoUsuario.SelectedItem.ToString()
-
             Dim userName As String
             userName = tbxNombreUsuario.Text
 
             Dim contrasenia As String
             contrasenia = tbxContrasenia.Text
+            If userName <> Nothing & telUsuario <> Nothing & emailUsuario <> Nothing & ciUsuario <> Nothing & nombreUsuario <> Nothing & apellidoUsuario <> Nothing & userName <> Nothing Then
+                Dim usuarioNueva = New ClaseUsuario()
+                usuarioNueva.Tel = telUsuario
+                usuarioNueva.Email = emailUsuario
+                usuarioNueva.Ci = ciUsuario
+                usuarioNueva.Nombre = nombreUsuario
+                usuarioNueva.Apellido = apellidoUsuario
+                usuarioNueva.UserName = userName
+                usuarioNueva.Passwd = contrasenia
 
-            Dim usuarioNueva = New ClaseUsuario()
-            usuarioNueva.Tel = telUsuario
-            usuarioNueva.Email = emailUsuario
-            usuarioNueva.Ci = ciUsuario
-            usuarioNueva.Nombre = nombreUsuario
-            usuarioNueva.Apellido = apellidoUsuario
-            usuarioNueva.Tipo = tipoUsuario
-            usuarioNueva.UserName = userName
-            usuarioNueva.Passwd = contrasenia
+                Dim logica As New LogicaUsuario()
+                logica.altaUsuario(usuarioNueva)
 
-            Dim newUsuarioNueva As New ClaseUsuario()
-            newUsuarioNueva.Tel = telUsuario
-            newUsuarioNueva.Email = emailUsuario
-            newUsuarioNueva.Ci = ciUsuario
-            newUsuarioNueva.Nombre = nombreUsuario
-            newUsuarioNueva.Apellido = apellidoUsuario
-            newUsuarioNueva.Tipo = tipoUsuario
-            newUsuarioNueva.UserName = userName
-            'newUsuarioNueva.Passwd = contrasenia
+            Else
+                If telUsuario = Nothing Then
 
-            Dim logica As New LogicaUsuario()
-            logica.altaUsuario(usuarioNueva)
+                End If
+            End If
+
+
         Catch ex As Exception
             MsgBox("un error: " + ex.Message)
         End Try
     End Sub
 
-    Private Sub formAltaUsuario_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
+    Private Sub btnBorrar_Click(sender As Object, e As EventArgs) Handles btnBorrar.Click
+        tbxTelefono.Text = ""
+        tbxCorreo.Text = ""
+        tbxCi.Text = ""
+        tbxNombre.Text = ""
+        tbxApellido.Text = ""
+        tbxNombreUsuario.Text = ""
+        tbxContrasenia.Text = ""
     End Sub
 End Class

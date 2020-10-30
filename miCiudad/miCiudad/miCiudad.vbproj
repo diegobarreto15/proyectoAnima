@@ -126,7 +126,11 @@
     <Compile Include="Presentacion\asignarEstadoReporteForm.Designer.vb">
       <DependentUpon>asignarEstadoReporteForm.vb</DependentUpon>
     </Compile>
-    <Compile Include="Presentacion\asignarEstadoReporteForm.vb">
+    <Compile Include="Presentacion\asignarEstadoReporteForm.vb" />
+    <Compile Include="Presentacion\buscarReporte.Designer.vb">
+      <DependentUpon>buscarReporte.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\buscarReporte.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Presentacion\modificarUsuarioForm.Designer.vb">

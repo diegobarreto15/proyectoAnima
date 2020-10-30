@@ -34,7 +34,7 @@ Partial Class formAltaUsuario
         Me.Label8 = New System.Windows.Forms.Label()
         Me.tbxContrasenia = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.btnCancelar = New System.Windows.Forms.Button()
+        Me.btnBorrar = New System.Windows.Forms.Button()
         Me.tbxNombre = New System.Windows.Forms.TextBox()
         Me.lblNombre = New System.Windows.Forms.Label()
         Me.tbxCorreo = New System.Windows.Forms.TextBox()
@@ -159,15 +159,15 @@ Partial Class formAltaUsuario
         Me.Label1.TabIndex = 29
         Me.Label1.Text = "Tipo de usuario"
         '
-        'btnCancelar
+        'btnBorrar
         '
-        Me.btnCancelar.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnCancelar.Location = New System.Drawing.Point(328, 382)
-        Me.btnCancelar.Name = "btnCancelar"
-        Me.btnCancelar.Size = New System.Drawing.Size(87, 25)
-        Me.btnCancelar.TabIndex = 30
-        Me.btnCancelar.Text = "Cancelar"
-        Me.btnCancelar.UseVisualStyleBackColor = True
+        Me.btnBorrar.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnBorrar.Location = New System.Drawing.Point(329, 382)
+        Me.btnBorrar.Name = "btnBorrar"
+        Me.btnBorrar.Size = New System.Drawing.Size(87, 25)
+        Me.btnBorrar.TabIndex = 30
+        Me.btnBorrar.Text = "Borrar"
+        Me.btnBorrar.UseVisualStyleBackColor = True
         '
         'tbxNombre
         '
@@ -235,7 +235,7 @@ Partial Class formAltaUsuario
         Me.ClientSize = New System.Drawing.Size(800, 450)
         Me.Controls.Add(Me.lblNombreUsuario)
         Me.Controls.Add(Me.tbxNombreUsuario)
-        Me.Controls.Add(Me.btnCancelar)
+        Me.Controls.Add(Me.btnBorrar)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Label8)
         Me.Controls.Add(Me.tbxContrasenia)
@@ -271,7 +271,7 @@ Partial Class formAltaUsuario
     Friend WithEvents Label8 As Label
     Friend WithEvents tbxContrasenia As TextBox
     Friend WithEvents Label1 As Label
-    Friend WithEvents btnCancelar As Button
+    Friend WithEvents btnBorrar As Button
     Friend WithEvents tbxNombre As TextBox
     Friend WithEvents lblNombre As Label
     Friend WithEvents tbxCorreo As TextBox
