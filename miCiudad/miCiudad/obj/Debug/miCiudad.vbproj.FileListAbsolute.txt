@@ -286,3 +286,4 @@ C:\Users\Alumno\repos\proyectoAnima\miCiudad\miCiudad\bin\Debug\System.ValueTupl
 C:\Users\Alumno\repos\proyectoAnima\miCiudad\miCiudad\obj\Debug\miCiudad.vbproj.CopyComplete
 =======
 >>>>>>> 6a778b8edca208ee5e8811800a9fdb7ac348a3f1
+C:\Users\Alumno\Desktop\miCiudad\proyectoAnima\miCiudad\miCiudad\obj\Debug\miCiudad.modificarEstadoReporteForm.resources

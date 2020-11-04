@@ -22,9 +22,12 @@
 
             Dim contrasenia As String
             contrasenia = tbxContrasenia.Text
-            If userName <> Nothing & telUsuario <> Nothing & emailUsuario <> Nothing & ciUsuario <> Nothing & nombreUsuario <> Nothing & apellidoUsuario <> Nothing & userName <> Nothing Then
-                Dim usuarioNueva = New ClaseUsuario()
-                usuarioNueva.Tel = telUsuario
+
+            Dim usuarioNueva = New ClaseUsuario()
+            Dim logica As New LogicaUsuario()
+
+            'If userName <> Nothing & telUsuario <> Nothing & emailUsuario <> Nothing & ciUsuario <> Nothing & nombreUsuario <> Nothing & apellidoUsuario <> Nothing & userName <> Nothing Then
+            usuarioNueva.Tel = telUsuario
                 usuarioNueva.Email = emailUsuario
                 usuarioNueva.Ci = ciUsuario
                 usuarioNueva.Nombre = nombreUsuario
@@ -32,41 +35,28 @@
                 usuarioNueva.UserName = userName
                 usuarioNueva.Passwd = contrasenia
 
-                Dim logica As New LogicaUsuario()
                 logica.altaUsuario(usuarioNueva)
 
-            Else
-                If telUsuario = Nothing Then
+            'Else
+            'If telUsuario = Nothing Then
 
-                End If
-            End If
+            'End If
+            'End If
 
 
-<<<<<<< HEAD
-=======
-            Dim usuarioNueva = New ClaseUsuario()
-            usuarioNueva.Tel = telUsuario
-            usuarioNueva.Email = emailUsuario
-            usuarioNueva.Ci = ciUsuario
-            usuarioNueva.Nombre = nombreUsuario
-            usuarioNueva.Apellido = apellidoUsuario
-            usuarioNueva.Tipo = tipoUsuario
-            usuarioNueva.UserName = userName
-            usuarioNueva.Passwd = contrasenia
 
-            'Dim newUsuarioNueva As New ClaseUsuario()
-            'newUsuarioNueva.Tel = telUsuario
-            'newUsuarioNueva.Email = emailUsuario
-            'newUsuarioNueva.Ci = ciUsuario
-            'newUsuarioNueva.Nombre = nombreUsuario
-            'newUsuarioNueva.Apellido = apellidoUsuario
-            'newUsuarioNueva.Tipo = tipoUsuario
-            'newUsuarioNueva.UserName = userName
-            'newUsuarioNueva.Passwd = contrasenia
+            '      Dim usuarioNueva = New ClaseUsuario()
+            '       usuarioNueva.Tel = telUsuario
+            '        usuarioNueva.Email = emailUsuario
+            '         usuarioNueva.Ci = ciUsuario
+            '          usuarioNueva.Nombre = nombreUsuario
+            '           usuarioNueva.Apellido = apellidoUsuario
+            '            usuarioNueva.UserName = userName
+            '            usuarioNueva.Passwd = contrasenia
 
-            Dim logica As New LogicaUsuario()
-            logica.altaUsuario(usuarioNueva)
->>>>>>> b49a60fd3bd708f55f651a2c50566688926bb851
+            'Dim logica As New LogicaUsuario()
+            'logica.altaUsuario(usuarioNueva)
+
         Catch ex As Exception
             MsgBox("un error: " + ex.Message)
         End Try

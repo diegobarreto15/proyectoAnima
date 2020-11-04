@@ -25,7 +25,6 @@ Partial Class formAltaUsuario
         Me.tbxCi = New System.Windows.Forms.TextBox()
         Me.lblCi = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.cbxTipoUsuario = New System.Windows.Forms.ComboBox()
         Me.btnAceptar = New System.Windows.Forms.Button()
         Me.lblApellido = New System.Windows.Forms.Label()
         Me.tbxApellido = New System.Windows.Forms.TextBox()
@@ -33,7 +32,6 @@ Partial Class formAltaUsuario
         Me.tbxTelefono = New System.Windows.Forms.TextBox()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.tbxContrasenia = New System.Windows.Forms.TextBox()
-        Me.Label1 = New System.Windows.Forms.Label()
         Me.btnBorrar = New System.Windows.Forms.Button()
         Me.tbxNombre = New System.Windows.Forms.TextBox()
         Me.lblNombre = New System.Windows.Forms.Label()
@@ -69,17 +67,6 @@ Partial Class formAltaUsuario
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(0, 13)
         Me.Label2.TabIndex = 4
-        '
-        'cbxTipoUsuario
-        '
-        Me.cbxTipoUsuario.AccessibleRole = System.Windows.Forms.AccessibleRole.None
-        Me.cbxTipoUsuario.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cbxTipoUsuario.FormattingEnabled = True
-        Me.cbxTipoUsuario.Items.AddRange(New Object() {"Admin", "Cliente"})
-        Me.cbxTipoUsuario.Location = New System.Drawing.Point(328, 258)
-        Me.cbxTipoUsuario.Name = "cbxTipoUsuario"
-        Me.cbxTipoUsuario.Size = New System.Drawing.Size(145, 28)
-        Me.cbxTipoUsuario.TabIndex = 14
         '
         'btnAceptar
         '
@@ -147,17 +134,6 @@ Partial Class formAltaUsuario
         Me.tbxContrasenia.Name = "tbxContrasenia"
         Me.tbxContrasenia.Size = New System.Drawing.Size(145, 26)
         Me.tbxContrasenia.TabIndex = 27
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.BackColor = System.Drawing.Color.Transparent
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(324, 235)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(117, 20)
-        Me.Label1.TabIndex = 29
-        Me.Label1.Text = "Tipo de usuario"
         '
         'btnBorrar
         '
@@ -236,7 +212,6 @@ Partial Class formAltaUsuario
         Me.Controls.Add(Me.lblNombreUsuario)
         Me.Controls.Add(Me.tbxNombreUsuario)
         Me.Controls.Add(Me.btnBorrar)
-        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Label8)
         Me.Controls.Add(Me.tbxContrasenia)
         Me.Controls.Add(Me.lblCorreo)
@@ -248,7 +223,6 @@ Partial Class formAltaUsuario
         Me.Controls.Add(Me.lblNombre)
         Me.Controls.Add(Me.tbxNombre)
         Me.Controls.Add(Me.btnAceptar)
-        Me.Controls.Add(Me.cbxTipoUsuario)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.lblCi)
         Me.Controls.Add(Me.tbxCi)
@@ -262,7 +236,6 @@ Partial Class formAltaUsuario
     Friend WithEvents tbxCi As TextBox
     Friend WithEvents lblCi As Label
     Friend WithEvents Label2 As Label
-    Friend WithEvents cbxTipoUsuario As ComboBox
     Friend WithEvents btnAceptar As Button
     Friend WithEvents lblApellido As Label
     Friend WithEvents tbxApellido As TextBox
@@ -270,7 +243,6 @@ Partial Class formAltaUsuario
     Friend WithEvents tbxTelefono As TextBox
     Friend WithEvents Label8 As Label
     Friend WithEvents tbxContrasenia As TextBox
-    Friend WithEvents Label1 As Label
     Friend WithEvents btnBorrar As Button
     Friend WithEvents tbxNombre As TextBox
     Friend WithEvents lblNombre As Label

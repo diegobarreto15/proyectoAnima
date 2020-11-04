@@ -8,6 +8,6 @@
     End Sub
 
     Private Sub AsignarEstadoToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AsignarEstadoToolStripMenuItem.Click
-        asignarEstadoReporteForm.ShowDialog()
+        modificarEstadoReporteForm.ShowDialog()
     End Sub
 End Class
