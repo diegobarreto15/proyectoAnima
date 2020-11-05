@@ -79,5 +79,9 @@
     Private Sub tbxNombre_TextChanged(sender As Object, e As EventArgs) Handles tbxNombre.TextChanged
 
     End Sub
+
+    Private Sub formAltaUsuario_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
     'Me.tbxNombre Border.CornerRadius
 End Class

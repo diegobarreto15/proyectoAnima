@@ -42,9 +42,11 @@ Partial Class formAltaUsuario
         Me.pbxRectangulo = New System.Windows.Forms.PictureBox()
         Me.pbxLinea = New System.Windows.Forms.PictureBox()
         Me.pbxVectorAltaUsuario = New System.Windows.Forms.PictureBox()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         CType(Me.pbxRectangulo, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.pbxLinea, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.pbxVectorAltaUsuario, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'tbxCi
@@ -227,6 +229,15 @@ Partial Class formAltaUsuario
         Me.pbxVectorAltaUsuario.TabIndex = 35
         Me.pbxVectorAltaUsuario.TabStop = False
         '
+        'PictureBox1
+        '
+        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
+        Me.PictureBox1.Location = New System.Drawing.Point(125, 91)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(121, 23)
+        Me.PictureBox1.TabIndex = 36
+        Me.PictureBox1.TabStop = False
+        '
         'formAltaUsuario
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -234,6 +245,7 @@ Partial Class formAltaUsuario
         Me.BackColor = System.Drawing.Color.White
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.ClientSize = New System.Drawing.Size(1104, 611)
+        Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.pbxVectorAltaUsuario)
         Me.Controls.Add(Me.pbxLinea)
         Me.Controls.Add(Me.pbxRectangulo)
@@ -259,6 +271,7 @@ Partial Class formAltaUsuario
         CType(Me.pbxRectangulo, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.pbxLinea, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.pbxVectorAltaUsuario, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -283,4 +296,5 @@ Partial Class formAltaUsuario
     Friend WithEvents pbxRectangulo As PictureBox
     Friend WithEvents pbxLinea As PictureBox
     Friend WithEvents pbxVectorAltaUsuario As PictureBox
+    Friend WithEvents PictureBox1 As PictureBox
 End Class
