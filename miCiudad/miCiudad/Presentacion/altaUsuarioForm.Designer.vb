@@ -34,7 +34,6 @@ Partial Class formAltaUsuario
         Me.tbxContrasenia = New System.Windows.Forms.TextBox()
         Me.btnBorrar = New System.Windows.Forms.Button()
         Me.tbxNombre = New System.Windows.Forms.TextBox()
-        Me.lblNombre = New System.Windows.Forms.Label()
         Me.tbxCorreo = New System.Windows.Forms.TextBox()
         Me.lblCorreo = New System.Windows.Forms.Label()
         Me.lblNombreUsuario = New System.Windows.Forms.Label()
@@ -42,12 +41,11 @@ Partial Class formAltaUsuario
         Me.pbxRectangulo = New System.Windows.Forms.PictureBox()
         Me.pbxLinea = New System.Windows.Forms.PictureBox()
         Me.pbxVectorAltaUsuario = New System.Windows.Forms.PictureBox()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.Titulo = New System.Windows.Forms.Label()
+        Me.lblTitulo = New System.Windows.Forms.Label()
+        Me.lblNombre = New System.Windows.Forms.Label()
         CType(Me.pbxRectangulo, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.pbxLinea, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.pbxVectorAltaUsuario, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'tbxCi
@@ -148,22 +146,12 @@ Partial Class formAltaUsuario
         '
         'tbxNombre
         '
-        Me.tbxNombre.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.tbxNombre.Location = New System.Drawing.Point(172, 241)
+        Me.tbxNombre.Font = New System.Drawing.Font("Microsoft Tai Le", 12.5!)
+        Me.tbxNombre.Location = New System.Drawing.Point(121, 231)
+        Me.tbxNombre.Multiline = True
         Me.tbxNombre.Name = "tbxNombre"
-        Me.tbxNombre.Size = New System.Drawing.Size(145, 26)
+        Me.tbxNombre.Size = New System.Drawing.Size(196, 35)
         Me.tbxNombre.TabIndex = 17
-        '
-        'lblNombre
-        '
-        Me.lblNombre.AutoSize = True
-        Me.lblNombre.BackColor = System.Drawing.Color.Transparent
-        Me.lblNombre.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblNombre.Location = New System.Drawing.Point(167, 218)
-        Me.lblNombre.Name = "lblNombre"
-        Me.lblNombre.Size = New System.Drawing.Size(65, 20)
-        Me.lblNombre.TabIndex = 18
-        Me.lblNombre.Text = "Nombre"
         '
         'tbxCorreo
         '
@@ -230,24 +218,27 @@ Partial Class formAltaUsuario
         Me.pbxVectorAltaUsuario.TabIndex = 35
         Me.pbxVectorAltaUsuario.TabStop = False
         '
-        'PictureBox1
+        'lblTitulo
         '
-        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(310, 66)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(121, 23)
-        Me.PictureBox1.TabIndex = 36
-        Me.PictureBox1.TabStop = False
+        Me.lblTitulo.AutoSize = True
+        Me.lblTitulo.Font = New System.Drawing.Font("MS Reference Sans Serif", 16.0!)
+        Me.lblTitulo.ForeColor = System.Drawing.SystemColors.ControlDarkDark
+        Me.lblTitulo.Location = New System.Drawing.Point(123, 85)
+        Me.lblTitulo.Name = "lblTitulo"
+        Me.lblTitulo.Size = New System.Drawing.Size(143, 28)
+        Me.lblTitulo.TabIndex = 37
+        Me.lblTitulo.Text = "Alta usuario"
         '
-        'Titulo
+        'lblNombre
         '
-        Me.Titulo.AutoSize = True
-        Me.Titulo.Font = New System.Drawing.Font("Microsoft Tai Le", 17.0!)
-        Me.Titulo.Location = New System.Drawing.Point(125, 85)
-        Me.Titulo.Name = "Titulo"
-        Me.Titulo.Size = New System.Drawing.Size(135, 30)
-        Me.Titulo.TabIndex = 37
-        Me.Titulo.Text = "Alta usuario"
+        Me.lblNombre.AutoSize = True
+        Me.lblNombre.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.5!)
+        Me.lblNombre.ForeColor = System.Drawing.SystemColors.ControlDarkDark
+        Me.lblNombre.Location = New System.Drawing.Point(119, 199)
+        Me.lblNombre.Name = "lblNombre"
+        Me.lblNombre.Size = New System.Drawing.Size(68, 20)
+        Me.lblNombre.TabIndex = 38
+        Me.lblNombre.Text = "Nombre"
         '
         'formAltaUsuario
         '
@@ -256,8 +247,8 @@ Partial Class formAltaUsuario
         Me.BackColor = System.Drawing.Color.White
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.ClientSize = New System.Drawing.Size(1104, 611)
-        Me.Controls.Add(Me.Titulo)
-        Me.Controls.Add(Me.PictureBox1)
+        Me.Controls.Add(Me.lblNombre)
+        Me.Controls.Add(Me.lblTitulo)
         Me.Controls.Add(Me.pbxVectorAltaUsuario)
         Me.Controls.Add(Me.pbxLinea)
         Me.Controls.Add(Me.pbxRectangulo)
@@ -272,18 +263,17 @@ Partial Class formAltaUsuario
         Me.Controls.Add(Me.tbxTelefono)
         Me.Controls.Add(Me.lblApellido)
         Me.Controls.Add(Me.tbxApellido)
-        Me.Controls.Add(Me.lblNombre)
         Me.Controls.Add(Me.tbxNombre)
         Me.Controls.Add(Me.btnAceptar)
         Me.Controls.Add(Me.lblCi)
         Me.Controls.Add(Me.tbxCi)
+        Me.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Name = "formAltaUsuario"
         Me.Text = "Alta usuario"
         CType(Me.pbxRectangulo, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.pbxLinea, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.pbxVectorAltaUsuario, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -299,8 +289,6 @@ Partial Class formAltaUsuario
     Friend WithEvents Label8 As Label
     Friend WithEvents tbxContrasenia As TextBox
     Friend WithEvents btnBorrar As Button
-    Friend WithEvents tbxNombre As TextBox
-    Friend WithEvents lblNombre As Label
     Friend WithEvents tbxCorreo As TextBox
     Friend WithEvents lblCorreo As Label
     Friend WithEvents lblNombreUsuario As Label
@@ -308,6 +296,7 @@ Partial Class formAltaUsuario
     Friend WithEvents pbxRectangulo As PictureBox
     Friend WithEvents pbxLinea As PictureBox
     Friend WithEvents pbxVectorAltaUsuario As PictureBox
-    Friend WithEvents PictureBox1 As PictureBox
-    Friend WithEvents Titulo As Label
+    Friend WithEvents lblTitulo As Label
+    Friend WithEvents lblNombre As Label
+    Private WithEvents tbxNombre As TextBox
 End Class
