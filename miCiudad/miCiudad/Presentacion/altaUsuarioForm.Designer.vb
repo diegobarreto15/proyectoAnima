@@ -43,6 +43,7 @@ Partial Class formAltaUsuario
         Me.pbxLinea = New System.Windows.Forms.PictureBox()
         Me.pbxVectorAltaUsuario = New System.Windows.Forms.PictureBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.Titulo = New System.Windows.Forms.Label()
         CType(Me.pbxRectangulo, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.pbxLinea, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.pbxVectorAltaUsuario, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -232,11 +233,21 @@ Partial Class formAltaUsuario
         'PictureBox1
         '
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(125, 91)
+        Me.PictureBox1.Location = New System.Drawing.Point(310, 66)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(121, 23)
         Me.PictureBox1.TabIndex = 36
         Me.PictureBox1.TabStop = False
+        '
+        'Titulo
+        '
+        Me.Titulo.AutoSize = True
+        Me.Titulo.Font = New System.Drawing.Font("Microsoft Tai Le", 17.0!)
+        Me.Titulo.Location = New System.Drawing.Point(125, 85)
+        Me.Titulo.Name = "Titulo"
+        Me.Titulo.Size = New System.Drawing.Size(135, 30)
+        Me.Titulo.TabIndex = 37
+        Me.Titulo.Text = "Alta usuario"
         '
         'formAltaUsuario
         '
@@ -245,6 +256,7 @@ Partial Class formAltaUsuario
         Me.BackColor = System.Drawing.Color.White
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.ClientSize = New System.Drawing.Size(1104, 611)
+        Me.Controls.Add(Me.Titulo)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.pbxVectorAltaUsuario)
         Me.Controls.Add(Me.pbxLinea)
@@ -297,4 +309,5 @@ Partial Class formAltaUsuario
     Friend WithEvents pbxLinea As PictureBox
     Friend WithEvents pbxVectorAltaUsuario As PictureBox
     Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents Titulo As Label
 End Class

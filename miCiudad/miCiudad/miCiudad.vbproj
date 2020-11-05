@@ -203,7 +203,6 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <Content Include="Imagenes\Alta usuario.png" />
     <Content Include="Imagenes\Line 1.png" />
     <Content Include="Imagenes\Rectangle 1.png" />
     <Content Include="Imagenes\Vector.png" />
