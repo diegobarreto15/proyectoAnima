@@ -201,8 +201,12 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Imagenes\" />
+    <Content Include="Imagenes\Alta usuario.png" />
+    <Content Include="Imagenes\Line 1.png" />
+    <Content Include="Imagenes\Rectangle 1.png" />
+    <Content Include="Imagenes\Vector.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

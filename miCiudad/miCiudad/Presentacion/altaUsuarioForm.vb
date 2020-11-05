@@ -26,8 +26,8 @@
             Dim usuarioNueva = New ClaseUsuario()
             Dim logica As New LogicaUsuario()
 
-            'If userName <> Nothing & telUsuario <> Nothing & emailUsuario <> Nothing & ciUsuario <> Nothing & nombreUsuario <> Nothing & apellidoUsuario <> Nothing & userName <> Nothing Then
-            usuarioNueva.Tel = telUsuario
+            If userName <> "" & telUsuario <> "" & emailUsuario <> "" & ciUsuario <> "" & nombreUsuario <> "" & apellidoUsuario <> "" & userName <> "" Then
+                usuarioNueva.Tel = telUsuario
                 usuarioNueva.Email = emailUsuario
                 usuarioNueva.Ci = ciUsuario
                 usuarioNueva.Nombre = nombreUsuario
@@ -37,11 +37,11 @@
 
                 logica.altaUsuario(usuarioNueva)
 
-            'Else
-            'If telUsuario = Nothing Then
+                'Else
+                If telUsuario = "" Then
 
-            'End If
-            'End If
+                End If
+            End If
 
 
 
@@ -71,4 +71,13 @@
         tbxNombreUsuario.Text = ""
         tbxContrasenia.Text = ""
     End Sub
+
+    Private Sub PictureBox2_Click(sender As Object, e As EventArgs) Handles pbxVectorAltaUsuario.Click
+
+    End Sub
+
+    Private Sub tbxNombre_TextChanged(sender As Object, e As EventArgs) Handles tbxNombre.TextChanged
+
+    End Sub
+    'Me.tbxNombre Border.CornerRadius
 End Class
