@@ -134,7 +134,7 @@ Partial Class altaUserForm
         Me.tbxApellido.Name = "tbxApellido"
         Me.tbxApellido.Size = New System.Drawing.Size(100, 20)
         Me.tbxApellido.TabIndex = 10
-        '
+
         'tbxContraseña
         '
         Me.tbxContraseña.Location = New System.Drawing.Point(363, 238)

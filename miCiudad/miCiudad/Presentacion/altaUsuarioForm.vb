@@ -1,6 +1,6 @@
 ﻿Public Class formAltaUsuario
 
-    Private Sub btnAceptar_Click(sender As Object, e As EventArgs) Handles btnAceptar.Click
+    Private Sub btnAceptar_Click(sender As Object, e As EventArgs)
         Try
             Dim telUsuario As Integer
             telUsuario = tbxTelefono.Text
@@ -18,7 +18,7 @@
             apellidoUsuario = tbxApellido.Text
 
             Dim userName As String
-            userName = tbxNombreUsuario.Text
+            userName = lblNombreUsuario.Text
 
             Dim contrasenia As String
             contrasenia = tbxContrasenia.Text
@@ -68,20 +68,10 @@
         tbxCi.Text = ""
         tbxNombre.Text = ""
         tbxApellido.Text = ""
-        tbxNombreUsuario.Text = ""
+        lblNombreUsuario.Text = ""
         tbxContrasenia.Text = ""
     End Sub
 
-    Private Sub PictureBox2_Click(sender As Object, e As EventArgs) Handles pbxVectorAltaUsuario.Click
-
-    End Sub
-
-    Private Sub tbxNombre_TextChanged(sender As Object, e As EventArgs) Handles tbxNombre.TextChanged
-
-    End Sub
-
-    Private Sub formAltaUsuario_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
-    End Sub
+    'End Sub
     'Me.tbxNombre Border.CornerRadius
 End Class
