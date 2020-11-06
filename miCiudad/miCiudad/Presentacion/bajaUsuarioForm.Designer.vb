@@ -56,21 +56,28 @@ Partial Class bajaUsuarioForm
         'blCI
         '
         Me.blCI.AutoSize = True
+        Me.blCI.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.blCI.ForeColor = System.Drawing.SystemColors.GrayText
         Me.blCI.Location = New System.Drawing.Point(77, 179)
         Me.blCI.Name = "blCI"
-        Me.blCI.Size = New System.Drawing.Size(40, 13)
+        Me.blCI.Size = New System.Drawing.Size(51, 16)
         Me.blCI.TabIndex = 4
         Me.blCI.Text = "Cedula"
         '
         'btnAceptarBaja
         '
-        Me.btnAceptarBaja.Location = New System.Drawing.Point(340, 373)
+        Me.btnAceptarBaja.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(120, Byte), Integer), CType(CType(120, Byte), Integer))
+        Me.btnAceptarBaja.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.btnAceptarBaja.FlatAppearance.BorderSize = 0
+        Me.btnAceptarBaja.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnAceptarBaja.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnAceptarBaja.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.btnAceptarBaja.Location = New System.Drawing.Point(320, 362)
         Me.btnAceptarBaja.Name = "btnAceptarBaja"
-        Me.btnAceptarBaja.Size = New System.Drawing.Size(140, 23)
+        Me.btnAceptarBaja.Size = New System.Drawing.Size(176, 29)
         Me.btnAceptarBaja.TabIndex = 5
         Me.btnAceptarBaja.Text = "Eliminar usuario"
-        Me.btnAceptarBaja.UseVisualStyleBackColor = True
+        Me.btnAceptarBaja.UseVisualStyleBackColor = False
         '
         'PictureBox2
         '

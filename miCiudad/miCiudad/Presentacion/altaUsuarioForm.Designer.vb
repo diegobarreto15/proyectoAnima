@@ -207,7 +207,7 @@ Partial Class formAltaUsuario
         Me.btnBorrar.FlatAppearance.BorderSize = 0
         Me.btnBorrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnBorrar.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.5!)
-        Me.btnBorrar.Location = New System.Drawing.Point(386, 507)
+        Me.btnBorrar.Location = New System.Drawing.Point(390, 507)
         Me.btnBorrar.Name = "btnBorrar"
         Me.btnBorrar.Size = New System.Drawing.Size(97, 36)
         Me.btnBorrar.TabIndex = 51
