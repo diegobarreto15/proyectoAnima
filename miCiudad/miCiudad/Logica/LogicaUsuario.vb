@@ -1,13 +1,16 @@
 ﻿Public Class LogicaUsuario
+    Dim persistencia As New PersistenciaUsuario
+
     Public Sub altaUsuario(usuarito As ClaseUsuario)
-        Dim persistencia As New PersistenciaUsuario
         persistencia.altaUsuario(usuarito)
     End Sub
 
     Public Sub modificarUsuario(usuarito As ClaseUsuario)
-        Dim persistencia As New PersistenciaUsuario
         persistencia.modificarUsuario(usuarito)
     End Sub
 
+    Public Function bajaUsuario(ci As Integer)
+        Return persistencia.bajaUsuario(ci)
+    End Function
 
 End Class
