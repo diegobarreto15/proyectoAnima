@@ -1,31 +1,11 @@
 ﻿Public Class ClaseUsuario
 
-    Private _tel As Integer
     Private _email As String
     Private _passwd As String
     Private _ci As Integer
     Private _nombre As String
     Private _apellido As String
     Private _tipo As String
-    Private _userName As String
-
-    Public Property UserName As String
-        Get
-            Return _userName
-        End Get
-        Set(value As String)
-            _userName = value
-        End Set
-    End Property
-
-    Public Property Tel As Integer
-        Get
-            Return _tel
-        End Get
-        Set(value As Integer)
-            _tel = value
-        End Set
-    End Property
 
     Public Property Email As String
         Get
@@ -85,9 +65,7 @@
 
     End Sub
 
-    Public Sub ClaseUsuario(tel_ As Integer, userName_ As String, email_ As String, passwd_ As String, ci_ As Integer, nombre_ As String, apellido_ As String, tipoUsuario_ As String)
-        Tel = tel_
-        UserName = userName_
+    Public Sub ClaseUsuario(email_ As String, passwd_ As String, ci_ As Integer, nombre_ As String, apellido_ As String, tipoUsuario_ As String)
         Email = email_
         Passwd = passwd_
         Ci = ci_

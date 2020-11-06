@@ -30,16 +30,12 @@ Partial Class formAltaUsuario
         Me.tbxCorreo = New System.Windows.Forms.TextBox()
         Me.lblContrasenia = New System.Windows.Forms.Label()
         Me.tbxContrasenia = New System.Windows.Forms.TextBox()
-        Me.lblNombreUsuario = New System.Windows.Forms.Label()
-        Me.tbxNombreUsuario = New System.Windows.Forms.TextBox()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.tbxTelefono = New System.Windows.Forms.TextBox()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.tbxApellido = New System.Windows.Forms.TextBox()
         Me.lblCi = New System.Windows.Forms.Label()
         Me.tbxCi = New System.Windows.Forms.TextBox()
         Me.btnBorrar = New System.Windows.Forms.Button()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.btnAceptar = New System.Windows.Forms.Button()
         Me.pbxVectorAltaUsuario = New System.Windows.Forms.PictureBox()
         Me.pbxLinea = New System.Windows.Forms.PictureBox()
         Me.pbxRectangulo = New System.Windows.Forms.PictureBox()
@@ -52,7 +48,7 @@ Partial Class formAltaUsuario
         '
         Me.tbxNombre.Font = New System.Drawing.Font("Microsoft Tai Le", 12.5!)
         Me.tbxNombre.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.tbxNombre.Location = New System.Drawing.Point(156, 201)
+        Me.tbxNombre.Location = New System.Drawing.Point(293, 211)
         Me.tbxNombre.Multiline = True
         Me.tbxNombre.Name = "tbxNombre"
         Me.tbxNombre.Size = New System.Drawing.Size(196, 35)
@@ -74,7 +70,7 @@ Partial Class formAltaUsuario
         Me.lblNombre.AutoSize = True
         Me.lblNombre.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.5!)
         Me.lblNombre.ForeColor = System.Drawing.SystemColors.ControlDarkDark
-        Me.lblNombre.Location = New System.Drawing.Point(154, 169)
+        Me.lblNombre.Location = New System.Drawing.Point(291, 179)
         Me.lblNombre.Name = "lblNombre"
         Me.lblNombre.Size = New System.Drawing.Size(68, 20)
         Me.lblNombre.TabIndex = 38
@@ -85,7 +81,7 @@ Partial Class formAltaUsuario
         Me.lblCorreo.AutoSize = True
         Me.lblCorreo.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.5!)
         Me.lblCorreo.ForeColor = System.Drawing.SystemColors.ControlDarkDark
-        Me.lblCorreo.Location = New System.Drawing.Point(154, 261)
+        Me.lblCorreo.Location = New System.Drawing.Point(291, 271)
         Me.lblCorreo.Name = "lblCorreo"
         Me.lblCorreo.Size = New System.Drawing.Size(60, 20)
         Me.lblCorreo.TabIndex = 40
@@ -94,7 +90,7 @@ Partial Class formAltaUsuario
         'tbxCorreo
         '
         Me.tbxCorreo.Font = New System.Drawing.Font("Microsoft Tai Le", 12.5!)
-        Me.tbxCorreo.Location = New System.Drawing.Point(156, 293)
+        Me.tbxCorreo.Location = New System.Drawing.Point(293, 303)
         Me.tbxCorreo.Multiline = True
         Me.tbxCorreo.Name = "tbxCorreo"
         Me.tbxCorreo.Size = New System.Drawing.Size(196, 35)
@@ -105,7 +101,7 @@ Partial Class formAltaUsuario
         Me.lblContrasenia.AutoSize = True
         Me.lblContrasenia.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.5!)
         Me.lblContrasenia.ForeColor = System.Drawing.SystemColors.ControlDarkDark
-        Me.lblContrasenia.Location = New System.Drawing.Point(154, 357)
+        Me.lblContrasenia.Location = New System.Drawing.Point(291, 367)
         Me.lblContrasenia.Name = "lblContrasenia"
         Me.lblContrasenia.Size = New System.Drawing.Size(95, 20)
         Me.lblContrasenia.TabIndex = 42
@@ -114,58 +110,18 @@ Partial Class formAltaUsuario
         'tbxContrasenia
         '
         Me.tbxContrasenia.Font = New System.Drawing.Font("Microsoft Tai Le", 12.5!)
-        Me.tbxContrasenia.Location = New System.Drawing.Point(156, 389)
+        Me.tbxContrasenia.Location = New System.Drawing.Point(293, 399)
         Me.tbxContrasenia.Multiline = True
         Me.tbxContrasenia.Name = "tbxContrasenia"
         Me.tbxContrasenia.Size = New System.Drawing.Size(196, 35)
         Me.tbxContrasenia.TabIndex = 41
-        '
-        'lblNombreUsuario
-        '
-        Me.lblNombreUsuario.AutoSize = True
-        Me.lblNombreUsuario.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.5!)
-        Me.lblNombreUsuario.ForeColor = System.Drawing.SystemColors.ControlDarkDark
-        Me.lblNombreUsuario.Location = New System.Drawing.Point(459, 357)
-        Me.lblNombreUsuario.Name = "lblNombreUsuario"
-        Me.lblNombreUsuario.Size = New System.Drawing.Size(151, 20)
-        Me.lblNombreUsuario.TabIndex = 48
-        Me.lblNombreUsuario.Text = "Nombre de usuario"
-        '
-        'tbxNombreUsuario
-        '
-        Me.tbxNombreUsuario.Font = New System.Drawing.Font("Microsoft Tai Le", 12.5!)
-        Me.tbxNombreUsuario.Location = New System.Drawing.Point(461, 389)
-        Me.tbxNombreUsuario.Multiline = True
-        Me.tbxNombreUsuario.Name = "tbxNombreUsuario"
-        Me.tbxNombreUsuario.Size = New System.Drawing.Size(196, 35)
-        Me.tbxNombreUsuario.TabIndex = 47
-        '
-        'Label4
-        '
-        Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.5!)
-        Me.Label4.ForeColor = System.Drawing.SystemColors.ControlDarkDark
-        Me.Label4.Location = New System.Drawing.Point(459, 261)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(73, 20)
-        Me.Label4.TabIndex = 46
-        Me.Label4.Text = "Telefono"
-        '
-        'tbxTelefono
-        '
-        Me.tbxTelefono.Font = New System.Drawing.Font("Microsoft Tai Le", 12.5!)
-        Me.tbxTelefono.Location = New System.Drawing.Point(461, 293)
-        Me.tbxTelefono.Multiline = True
-        Me.tbxTelefono.Name = "tbxTelefono"
-        Me.tbxTelefono.Size = New System.Drawing.Size(196, 35)
-        Me.tbxTelefono.TabIndex = 45
         '
         'Label5
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.5!)
         Me.Label5.ForeColor = System.Drawing.SystemColors.ControlDarkDark
-        Me.Label5.Location = New System.Drawing.Point(459, 169)
+        Me.Label5.Location = New System.Drawing.Point(629, 195)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(68, 20)
         Me.Label5.TabIndex = 44
@@ -174,7 +130,7 @@ Partial Class formAltaUsuario
         'tbxApellido
         '
         Me.tbxApellido.Font = New System.Drawing.Font("Microsoft Tai Le", 12.5!)
-        Me.tbxApellido.Location = New System.Drawing.Point(461, 201)
+        Me.tbxApellido.Location = New System.Drawing.Point(631, 227)
         Me.tbxApellido.Multiline = True
         Me.tbxApellido.Name = "tbxApellido"
         Me.tbxApellido.Size = New System.Drawing.Size(196, 35)
@@ -185,7 +141,7 @@ Partial Class formAltaUsuario
         Me.lblCi.AutoSize = True
         Me.lblCi.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.5!)
         Me.lblCi.ForeColor = System.Drawing.SystemColors.ControlDarkDark
-        Me.lblCi.Location = New System.Drawing.Point(765, 169)
+        Me.lblCi.Location = New System.Drawing.Point(631, 271)
         Me.lblCi.Name = "lblCi"
         Me.lblCi.Size = New System.Drawing.Size(33, 20)
         Me.lblCi.TabIndex = 50
@@ -194,7 +150,7 @@ Partial Class formAltaUsuario
         'tbxCi
         '
         Me.tbxCi.Font = New System.Drawing.Font("Microsoft Tai Le", 12.5!)
-        Me.tbxCi.Location = New System.Drawing.Point(767, 201)
+        Me.tbxCi.Location = New System.Drawing.Point(633, 303)
         Me.tbxCi.Multiline = True
         Me.tbxCi.Name = "tbxCi"
         Me.tbxCi.Size = New System.Drawing.Size(196, 35)
@@ -214,19 +170,18 @@ Partial Class formAltaUsuario
         Me.btnBorrar.Text = "Vaciar"
         Me.btnBorrar.UseVisualStyleBackColor = False
         '
-        'Button1
+        'btnAceptar
         '
-        Me.Button1.BackColor = System.Drawing.Color.FromArgb(CType(CType(144, Byte), Integer), CType(CType(200, Byte), Integer), CType(CType(251, Byte), Integer))
-        Me.Button1.DialogResult = System.Windows.Forms.DialogResult.Cancel
-        Me.Button1.FlatAppearance.BorderSize = 0
-        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.5!)
-        Me.Button1.Location = New System.Drawing.Point(633, 507)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(97, 36)
-        Me.Button1.TabIndex = 53
-        Me.Button1.Text = "Vaciar"
-        Me.Button1.UseVisualStyleBackColor = False
+        Me.btnAceptar.BackColor = System.Drawing.Color.FromArgb(CType(CType(144, Byte), Integer), CType(CType(200, Byte), Integer), CType(CType(251, Byte), Integer))
+        Me.btnAceptar.FlatAppearance.BorderSize = 0
+        Me.btnAceptar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnAceptar.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.5!)
+        Me.btnAceptar.Location = New System.Drawing.Point(633, 507)
+        Me.btnAceptar.Name = "btnAceptar"
+        Me.btnAceptar.Size = New System.Drawing.Size(97, 36)
+        Me.btnAceptar.TabIndex = 53
+        Me.btnAceptar.Text = "Aceptar"
+        Me.btnAceptar.UseVisualStyleBackColor = False
         '
         'pbxVectorAltaUsuario
         '
@@ -262,14 +217,10 @@ Partial Class formAltaUsuario
         Me.BackColor = System.Drawing.Color.White
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.ClientSize = New System.Drawing.Size(1104, 611)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.btnAceptar)
         Me.Controls.Add(Me.btnBorrar)
         Me.Controls.Add(Me.lblCi)
         Me.Controls.Add(Me.tbxCi)
-        Me.Controls.Add(Me.lblNombreUsuario)
-        Me.Controls.Add(Me.tbxNombreUsuario)
-        Me.Controls.Add(Me.Label4)
-        Me.Controls.Add(Me.tbxTelefono)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.tbxApellido)
         Me.Controls.Add(Me.lblContrasenia)
@@ -286,7 +237,7 @@ Partial Class formAltaUsuario
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Name = "formAltaUsuario"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Mi ciudad"
+        Me.Text = " "
         CType(Me.pbxVectorAltaUsuario, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.pbxLinea, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.pbxRectangulo, System.ComponentModel.ISupportInitialize).EndInit()
@@ -304,14 +255,10 @@ Partial Class formAltaUsuario
     Private WithEvents tbxCorreo As TextBox
     Friend WithEvents lblContrasenia As Label
     Private WithEvents tbxContrasenia As TextBox
-    Friend WithEvents lblNombreUsuario As Label
-    Private WithEvents tbxNombreUsuario As TextBox
-    Friend WithEvents Label4 As Label
-    Private WithEvents tbxTelefono As TextBox
     Friend WithEvents Label5 As Label
     Private WithEvents tbxApellido As TextBox
     Friend WithEvents lblCi As Label
     Private WithEvents tbxCi As TextBox
     Friend WithEvents btnBorrar As Button
-    Friend WithEvents Button1 As Button
+    Friend WithEvents btnAceptar As Button
 End Class

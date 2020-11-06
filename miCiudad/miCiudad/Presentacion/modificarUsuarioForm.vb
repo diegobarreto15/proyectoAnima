@@ -24,12 +24,10 @@
             contrasenia = tbxContrasenia.Text
 
             Dim usuarioNueva = New ClaseUsuario()
-            usuarioNueva.Tel = telUsuario
             usuarioNueva.Email = emailUsuario
             usuarioNueva.Ci = ciUsuario
             usuarioNueva.Nombre = nombreUsuario
             usuarioNueva.Apellido = apellidoUsuario
-            usuarioNueva.UserName = userName
             usuarioNueva.Passwd = contrasenia
 
             Dim logica As New LogicaUsuario()

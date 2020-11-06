@@ -14,7 +14,7 @@ Public Class PersistenciaReporte
             cmd.Connection = conexion
             Dim cadenaComandos As String
 
-            cadenaComandos = "UPDATE Reportes SET state=@state WHERE id = @id;"
+            cadenaComandos = "UPDATE Reportes SET estado =@state WHERE id = @id;"
             cmd.CommandText = cadenaComandos
 
             cmd.Parameters.Add("@id", NpgsqlTypes.NpgsqlDbType.Varchar, 100).Value = reportesito.Descripcion
