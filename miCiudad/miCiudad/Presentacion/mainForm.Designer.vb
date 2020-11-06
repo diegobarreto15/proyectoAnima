@@ -53,7 +53,7 @@ Partial Class mainForm
         'AltaUserMenuItem
         '
         Me.AltaUserMenuItem.Name = "AltaUserMenuItem"
-        Me.AltaUserMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.AltaUserMenuItem.Size = New System.Drawing.Size(167, 22)
         Me.AltaUserMenuItem.Text = "Alta usuario"
         '
         'BajaUsuarioToolStripMenuItem
@@ -65,7 +65,7 @@ Partial Class mainForm
         'ModificarUsuarioToolStripMenuItem
         '
         Me.ModificarUsuarioToolStripMenuItem.Name = "ModificarUsuarioToolStripMenuItem"
-        Me.ModificarUsuarioToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.ModificarUsuarioToolStripMenuItem.Size = New System.Drawing.Size(167, 22)
         Me.ModificarUsuarioToolStripMenuItem.Text = "Modificar usuario"
         '
         'ReportesToolStripMenuItem
@@ -78,19 +78,19 @@ Partial Class mainForm
         'AsignarEstadoToolStripMenuItem
         '
         Me.AsignarEstadoToolStripMenuItem.Name = "AsignarEstadoToolStripMenuItem"
-        Me.AsignarEstadoToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.AsignarEstadoToolStripMenuItem.Size = New System.Drawing.Size(155, 22)
         Me.AsignarEstadoToolStripMenuItem.Text = "Asignar estado "
         '
         'ListarToolStripMenuItem
         '
         Me.ListarToolStripMenuItem.Name = "ListarToolStripMenuItem"
-        Me.ListarToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.ListarToolStripMenuItem.Size = New System.Drawing.Size(155, 22)
         Me.ListarToolStripMenuItem.Text = "listar"
         '
         'BuscarToolStripMenuItem
         '
         Me.BuscarToolStripMenuItem.Name = "BuscarToolStripMenuItem"
-        Me.BuscarToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.BuscarToolStripMenuItem.Size = New System.Drawing.Size(155, 22)
         Me.BuscarToolStripMenuItem.Text = "buscar"
         '
         'mainForm

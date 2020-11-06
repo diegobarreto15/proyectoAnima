@@ -22,7 +22,32 @@ miCiudad
   búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
 </summary>
 </member>
+<member name="P:miCiudad.My.Resources.Resources.Line_1">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:miCiudad.My.Resources.Resources.Rectangle_1">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:miCiudad.My.Resources.Resources.Rectangle_3">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:miCiudad.My.Resources.Resources.Vector">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:miCiudad.My.Resources.Resources.Vector1">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:miCiudad.My.Resources.Resources.VectorModificarUsuario">
 <summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>
