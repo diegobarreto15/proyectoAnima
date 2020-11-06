@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class modificarUserForm
     Inherits System.Windows.Forms.Form
 
     'Form reemplaza a Dispose para limpiar la lista de componentes.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,235 +20,294 @@ Partial Class modificarUserForm
     'NOTA: el Diseñador de Windows Forms necesita el siguiente procedimiento
     'Se puede modificar usando el Diseñador de Windows Forms.  
     'No lo modifique con el editor de código.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Me.cbxTipoUsuario = New System.Windows.Forms.ComboBox()
-        Me.tbxTelefono = New System.Windows.Forms.TextBox()
-        Me.tbxCorreo = New System.Windows.Forms.TextBox()
-        Me.tbxContrasenia = New System.Windows.Forms.TextBox()
-        Me.tbxApellido = New System.Windows.Forms.TextBox()
-        Me.tbxNombre = New System.Windows.Forms.TextBox()
-        Me.lbltipoUsuarioMOD = New System.Windows.Forms.Label()
-        Me.lblContraseñaMOD = New System.Windows.Forms.Label()
-        Me.lblCorreoMOD = New System.Windows.Forms.Label()
-        Me.lblTelMOD = New System.Windows.Forms.Label()
-        Me.lblApellidoMOD = New System.Windows.Forms.Label()
-        Me.lblNombreMOD = New System.Windows.Forms.Label()
-        Me.lblCIMOD = New System.Windows.Forms.Label()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(modificarUserForm))
+        Me.btnAceptar = New System.Windows.Forms.Button()
+        Me.btnBorrar = New System.Windows.Forms.Button()
+        Me.lblCi = New System.Windows.Forms.Label()
         Me.tbxCi = New System.Windows.Forms.TextBox()
-        Me.lblAltaUser = New System.Windows.Forms.Label()
-        Me.btnCancelarMOD = New System.Windows.Forms.Button()
-        Me.btnAceptarMOD = New System.Windows.Forms.Button()
+        Me.lblNombreUsuario = New System.Windows.Forms.Label()
         Me.tbxNombreUsuario = New System.Windows.Forms.TextBox()
-        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.tbxTelefono = New System.Windows.Forms.TextBox()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.tbxApellido = New System.Windows.Forms.TextBox()
+        Me.lblContrasenia = New System.Windows.Forms.Label()
+        Me.tbxContrasenia = New System.Windows.Forms.TextBox()
+        Me.lblCorreo = New System.Windows.Forms.Label()
+        Me.tbxCorreo = New System.Windows.Forms.TextBox()
+        Me.lblNombre = New System.Windows.Forms.Label()
+        Me.lblTitulo = New System.Windows.Forms.Label()
+        Me.tbxNombre = New System.Windows.Forms.TextBox()
+        Me.pbxVectorAltaUsuario = New System.Windows.Forms.PictureBox()
+        Me.pbxLinea = New System.Windows.Forms.PictureBox()
+        Me.pbxRectangulo = New System.Windows.Forms.PictureBox()
+        CType(Me.pbxVectorAltaUsuario, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbxLinea, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbxRectangulo, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
-        'cbxTipoUsuario
+        'btnAceptar
         '
-        Me.cbxTipoUsuario.FormattingEnabled = True
-        Me.cbxTipoUsuario.Items.AddRange(New Object() {"Adm", "Cliente"})
-        Me.cbxTipoUsuario.Location = New System.Drawing.Point(367, 309)
-        Me.cbxTipoUsuario.Name = "cbxTipoUsuario"
-        Me.cbxTipoUsuario.Size = New System.Drawing.Size(100, 21)
-        Me.cbxTipoUsuario.TabIndex = 28
+        Me.btnAceptar.BackColor = System.Drawing.Color.FromArgb(CType(CType(144, Byte), Integer), CType(CType(200, Byte), Integer), CType(CType(251, Byte), Integer))
+        Me.btnAceptar.DialogResult = System.Windows.Forms.DialogResult.Cancel
+        Me.btnAceptar.FlatAppearance.BorderSize = 0
+        Me.btnAceptar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnAceptar.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.5!)
+        Me.btnAceptar.Location = New System.Drawing.Point(633, 507)
+        Me.btnAceptar.Name = "btnAceptar"
+        Me.btnAceptar.Size = New System.Drawing.Size(97, 36)
+        Me.btnAceptar.TabIndex = 72
+        Me.btnAceptar.Text = "Aceptar"
+        Me.btnAceptar.UseVisualStyleBackColor = False
         '
-        'tbxTelefono
+        'btnBorrar
         '
-        Me.tbxTelefono.Location = New System.Drawing.Point(367, 215)
-        Me.tbxTelefono.Name = "tbxTelefono"
-        Me.tbxTelefono.Size = New System.Drawing.Size(100, 20)
-        Me.tbxTelefono.TabIndex = 27
+        Me.btnBorrar.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(120, Byte), Integer), CType(CType(120, Byte), Integer))
+        Me.btnBorrar.DialogResult = System.Windows.Forms.DialogResult.Cancel
+        Me.btnBorrar.FlatAppearance.BorderSize = 0
+        Me.btnBorrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnBorrar.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.5!)
+        Me.btnBorrar.Location = New System.Drawing.Point(386, 507)
+        Me.btnBorrar.Name = "btnBorrar"
+        Me.btnBorrar.Size = New System.Drawing.Size(97, 36)
+        Me.btnBorrar.TabIndex = 71
+        Me.btnBorrar.Text = "Vaciar"
+        Me.btnBorrar.UseVisualStyleBackColor = False
         '
-        'tbxCorreo
+        'lblCi
         '
-        Me.tbxCorreo.Location = New System.Drawing.Point(367, 247)
-        Me.tbxCorreo.Name = "tbxCorreo"
-        Me.tbxCorreo.Size = New System.Drawing.Size(100, 20)
-        Me.tbxCorreo.TabIndex = 26
-        '
-        'tbxContrasenia
-        '
-        Me.tbxContrasenia.Location = New System.Drawing.Point(367, 280)
-        Me.tbxContrasenia.Name = "tbxContrasenia"
-        Me.tbxContrasenia.Size = New System.Drawing.Size(100, 20)
-        Me.tbxContrasenia.TabIndex = 25
-        '
-        'tbxApellido
-        '
-        Me.tbxApellido.Location = New System.Drawing.Point(367, 184)
-        Me.tbxApellido.Name = "tbxApellido"
-        Me.tbxApellido.Size = New System.Drawing.Size(100, 20)
-        Me.tbxApellido.TabIndex = 24
-        '
-        'tbxNombre
-        '
-        Me.tbxNombre.Location = New System.Drawing.Point(367, 150)
-        Me.tbxNombre.Name = "tbxNombre"
-        Me.tbxNombre.Size = New System.Drawing.Size(100, 20)
-        Me.tbxNombre.TabIndex = 23
-        '
-        'lbltipoUsuarioMOD
-        '
-        Me.lbltipoUsuarioMOD.AutoSize = True
-        Me.lbltipoUsuarioMOD.Location = New System.Drawing.Point(275, 317)
-        Me.lbltipoUsuarioMOD.Name = "lbltipoUsuarioMOD"
-        Me.lbltipoUsuarioMOD.Size = New System.Drawing.Size(86, 13)
-        Me.lbltipoUsuarioMOD.TabIndex = 22
-        Me.lbltipoUsuarioMOD.Text = "Tipo de usuario :"
-        '
-        'lblContraseñaMOD
-        '
-        Me.lblContraseñaMOD.AutoSize = True
-        Me.lblContraseñaMOD.Location = New System.Drawing.Point(280, 287)
-        Me.lblContraseñaMOD.Name = "lblContraseñaMOD"
-        Me.lblContraseñaMOD.Size = New System.Drawing.Size(67, 13)
-        Me.lblContraseñaMOD.TabIndex = 21
-        Me.lblContraseñaMOD.Text = "Contraseña :"
-        '
-        'lblCorreoMOD
-        '
-        Me.lblCorreoMOD.AutoSize = True
-        Me.lblCorreoMOD.Location = New System.Drawing.Point(280, 254)
-        Me.lblCorreoMOD.Name = "lblCorreoMOD"
-        Me.lblCorreoMOD.Size = New System.Drawing.Size(44, 13)
-        Me.lblCorreoMOD.TabIndex = 20
-        Me.lblCorreoMOD.Text = "Correo :"
-        '
-        'lblTelMOD
-        '
-        Me.lblTelMOD.AutoSize = True
-        Me.lblTelMOD.Location = New System.Drawing.Point(280, 222)
-        Me.lblTelMOD.Name = "lblTelMOD"
-        Me.lblTelMOD.Size = New System.Drawing.Size(55, 13)
-        Me.lblTelMOD.TabIndex = 19
-        Me.lblTelMOD.Text = "Telefono :"
-        '
-        'lblApellidoMOD
-        '
-        Me.lblApellidoMOD.AutoSize = True
-        Me.lblApellidoMOD.Location = New System.Drawing.Point(280, 191)
-        Me.lblApellidoMOD.Name = "lblApellidoMOD"
-        Me.lblApellidoMOD.Size = New System.Drawing.Size(50, 13)
-        Me.lblApellidoMOD.TabIndex = 18
-        Me.lblApellidoMOD.Text = "Apellido :"
-        '
-        'lblNombreMOD
-        '
-        Me.lblNombreMOD.AutoSize = True
-        Me.lblNombreMOD.Location = New System.Drawing.Point(280, 157)
-        Me.lblNombreMOD.Name = "lblNombreMOD"
-        Me.lblNombreMOD.Size = New System.Drawing.Size(50, 13)
-        Me.lblNombreMOD.TabIndex = 17
-        Me.lblNombreMOD.Text = "Nombre :"
-        '
-        'lblCIMOD
-        '
-        Me.lblCIMOD.AutoSize = True
-        Me.lblCIMOD.Location = New System.Drawing.Point(280, 121)
-        Me.lblCIMOD.Name = "lblCIMOD"
-        Me.lblCIMOD.Size = New System.Drawing.Size(23, 13)
-        Me.lblCIMOD.TabIndex = 16
-        Me.lblCIMOD.Text = "CI :"
+        Me.lblCi.AutoSize = True
+        Me.lblCi.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.5!)
+        Me.lblCi.ForeColor = System.Drawing.SystemColors.ControlDarkDark
+        Me.lblCi.Location = New System.Drawing.Point(765, 169)
+        Me.lblCi.Name = "lblCi"
+        Me.lblCi.Size = New System.Drawing.Size(33, 20)
+        Me.lblCi.TabIndex = 70
+        Me.lblCi.Text = "C.I."
         '
         'tbxCi
         '
-        Me.tbxCi.Location = New System.Drawing.Point(367, 118)
+        Me.tbxCi.Font = New System.Drawing.Font("Microsoft Tai Le", 12.5!)
+        Me.tbxCi.Location = New System.Drawing.Point(767, 201)
+        Me.tbxCi.Multiline = True
         Me.tbxCi.Name = "tbxCi"
-        Me.tbxCi.Size = New System.Drawing.Size(100, 20)
-        Me.tbxCi.TabIndex = 15
+        Me.tbxCi.Size = New System.Drawing.Size(196, 35)
+        Me.tbxCi.TabIndex = 69
         '
-        'lblAltaUser
+        'lblNombreUsuario
         '
-        Me.lblAltaUser.AutoSize = True
-        Me.lblAltaUser.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblAltaUser.Location = New System.Drawing.Point(251, 29)
-        Me.lblAltaUser.Name = "lblAltaUser"
-        Me.lblAltaUser.Size = New System.Drawing.Size(245, 25)
-        Me.lblAltaUser.TabIndex = 29
-        Me.lblAltaUser.Text = "MODIFICAR USUARIO"
-        '
-        'btnCancelarMOD
-        '
-        Me.btnCancelarMOD.Location = New System.Drawing.Point(260, 368)
-        Me.btnCancelarMOD.Name = "btnCancelarMOD"
-        Me.btnCancelarMOD.Size = New System.Drawing.Size(75, 23)
-        Me.btnCancelarMOD.TabIndex = 31
-        Me.btnCancelarMOD.Text = "Cancelar"
-        Me.btnCancelarMOD.UseVisualStyleBackColor = True
-        '
-        'btnAceptarMOD
-        '
-        Me.btnAceptarMOD.Location = New System.Drawing.Point(401, 368)
-        Me.btnAceptarMOD.Name = "btnAceptarMOD"
-        Me.btnAceptarMOD.Size = New System.Drawing.Size(75, 23)
-        Me.btnAceptarMOD.TabIndex = 30
-        Me.btnAceptarMOD.Text = "Aceptar"
-        Me.btnAceptarMOD.UseVisualStyleBackColor = True
+        Me.lblNombreUsuario.AutoSize = True
+        Me.lblNombreUsuario.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.5!)
+        Me.lblNombreUsuario.ForeColor = System.Drawing.SystemColors.ControlDarkDark
+        Me.lblNombreUsuario.Location = New System.Drawing.Point(459, 357)
+        Me.lblNombreUsuario.Name = "lblNombreUsuario"
+        Me.lblNombreUsuario.Size = New System.Drawing.Size(151, 20)
+        Me.lblNombreUsuario.TabIndex = 68
+        Me.lblNombreUsuario.Text = "Nombre de usuario"
         '
         'tbxNombreUsuario
         '
-        Me.tbxNombreUsuario.Location = New System.Drawing.Point(367, 92)
+        Me.tbxNombreUsuario.Font = New System.Drawing.Font("Microsoft Tai Le", 12.5!)
+        Me.tbxNombreUsuario.Location = New System.Drawing.Point(461, 389)
+        Me.tbxNombreUsuario.Multiline = True
         Me.tbxNombreUsuario.Name = "tbxNombreUsuario"
-        Me.tbxNombreUsuario.Size = New System.Drawing.Size(100, 20)
-        Me.tbxNombreUsuario.TabIndex = 33
+        Me.tbxNombreUsuario.Size = New System.Drawing.Size(196, 35)
+        Me.tbxNombreUsuario.TabIndex = 67
         '
-        'Label1
+        'Label4
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(280, 99)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(50, 13)
-        Me.Label1.TabIndex = 32
-        Me.Label1.Text = "Nombre :"
+        Me.Label4.AutoSize = True
+        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.5!)
+        Me.Label4.ForeColor = System.Drawing.SystemColors.ControlDarkDark
+        Me.Label4.Location = New System.Drawing.Point(459, 261)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(73, 20)
+        Me.Label4.TabIndex = 66
+        Me.Label4.Text = "Telefono"
+        '
+        'tbxTelefono
+        '
+        Me.tbxTelefono.Font = New System.Drawing.Font("Microsoft Tai Le", 12.5!)
+        Me.tbxTelefono.Location = New System.Drawing.Point(461, 293)
+        Me.tbxTelefono.Multiline = True
+        Me.tbxTelefono.Name = "tbxTelefono"
+        Me.tbxTelefono.Size = New System.Drawing.Size(196, 35)
+        Me.tbxTelefono.TabIndex = 65
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.5!)
+        Me.Label5.ForeColor = System.Drawing.SystemColors.ControlDarkDark
+        Me.Label5.Location = New System.Drawing.Point(459, 169)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(68, 20)
+        Me.Label5.TabIndex = 64
+        Me.Label5.Text = "Apellido"
+        '
+        'tbxApellido
+        '
+        Me.tbxApellido.Font = New System.Drawing.Font("Microsoft Tai Le", 12.5!)
+        Me.tbxApellido.Location = New System.Drawing.Point(461, 201)
+        Me.tbxApellido.Multiline = True
+        Me.tbxApellido.Name = "tbxApellido"
+        Me.tbxApellido.Size = New System.Drawing.Size(196, 35)
+        Me.tbxApellido.TabIndex = 63
+        '
+        'lblContrasenia
+        '
+        Me.lblContrasenia.AutoSize = True
+        Me.lblContrasenia.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.5!)
+        Me.lblContrasenia.ForeColor = System.Drawing.SystemColors.ControlDarkDark
+        Me.lblContrasenia.Location = New System.Drawing.Point(154, 357)
+        Me.lblContrasenia.Name = "lblContrasenia"
+        Me.lblContrasenia.Size = New System.Drawing.Size(95, 20)
+        Me.lblContrasenia.TabIndex = 62
+        Me.lblContrasenia.Text = "Contraseña"
+        '
+        'tbxContrasenia
+        '
+        Me.tbxContrasenia.Font = New System.Drawing.Font("Microsoft Tai Le", 12.5!)
+        Me.tbxContrasenia.Location = New System.Drawing.Point(156, 389)
+        Me.tbxContrasenia.Multiline = True
+        Me.tbxContrasenia.Name = "tbxContrasenia"
+        Me.tbxContrasenia.Size = New System.Drawing.Size(196, 35)
+        Me.tbxContrasenia.TabIndex = 61
+        '
+        'lblCorreo
+        '
+        Me.lblCorreo.AutoSize = True
+        Me.lblCorreo.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.5!)
+        Me.lblCorreo.ForeColor = System.Drawing.SystemColors.ControlDarkDark
+        Me.lblCorreo.Location = New System.Drawing.Point(154, 261)
+        Me.lblCorreo.Name = "lblCorreo"
+        Me.lblCorreo.Size = New System.Drawing.Size(60, 20)
+        Me.lblCorreo.TabIndex = 60
+        Me.lblCorreo.Text = "Correo"
+        '
+        'tbxCorreo
+        '
+        Me.tbxCorreo.Font = New System.Drawing.Font("Microsoft Tai Le", 12.5!)
+        Me.tbxCorreo.Location = New System.Drawing.Point(156, 293)
+        Me.tbxCorreo.Multiline = True
+        Me.tbxCorreo.Name = "tbxCorreo"
+        Me.tbxCorreo.Size = New System.Drawing.Size(196, 35)
+        Me.tbxCorreo.TabIndex = 59
+        '
+        'lblNombre
+        '
+        Me.lblNombre.AutoSize = True
+        Me.lblNombre.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.5!)
+        Me.lblNombre.ForeColor = System.Drawing.SystemColors.ControlDarkDark
+        Me.lblNombre.Location = New System.Drawing.Point(154, 169)
+        Me.lblNombre.Name = "lblNombre"
+        Me.lblNombre.Size = New System.Drawing.Size(68, 20)
+        Me.lblNombre.TabIndex = 58
+        Me.lblNombre.Text = "Nombre"
+        '
+        'lblTitulo
+        '
+        Me.lblTitulo.AutoSize = True
+        Me.lblTitulo.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.0!)
+        Me.lblTitulo.ForeColor = System.Drawing.SystemColors.ControlDarkDark
+        Me.lblTitulo.Location = New System.Drawing.Point(123, 85)
+        Me.lblTitulo.Name = "lblTitulo"
+        Me.lblTitulo.Size = New System.Drawing.Size(181, 26)
+        Me.lblTitulo.TabIndex = 57
+        Me.lblTitulo.Text = "Modificar Usuario"
+        '
+        'tbxNombre
+        '
+        Me.tbxNombre.Font = New System.Drawing.Font("Microsoft Tai Le", 12.5!)
+        Me.tbxNombre.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.tbxNombre.Location = New System.Drawing.Point(156, 201)
+        Me.tbxNombre.Multiline = True
+        Me.tbxNombre.Name = "tbxNombre"
+        Me.tbxNombre.Size = New System.Drawing.Size(196, 35)
+        Me.tbxNombre.TabIndex = 54
+        '
+        'pbxVectorAltaUsuario
+        '
+        Me.pbxVectorAltaUsuario.Image = CType(resources.GetObject("pbxVectorAltaUsuario.Image"), System.Drawing.Image)
+        Me.pbxVectorAltaUsuario.Location = New System.Drawing.Point(85, 88)
+        Me.pbxVectorAltaUsuario.Name = "pbxVectorAltaUsuario"
+        Me.pbxVectorAltaUsuario.Size = New System.Drawing.Size(34, 27)
+        Me.pbxVectorAltaUsuario.TabIndex = 73
+        Me.pbxVectorAltaUsuario.TabStop = False
+        '
+        'pbxLinea
+        '
+        Me.pbxLinea.Image = CType(resources.GetObject("pbxLinea.Image"), System.Drawing.Image)
+        Me.pbxLinea.Location = New System.Drawing.Point(60, 120)
+        Me.pbxLinea.Name = "pbxLinea"
+        Me.pbxLinea.Size = New System.Drawing.Size(1000, 14)
+        Me.pbxLinea.TabIndex = 56
+        Me.pbxLinea.TabStop = False
+        '
+        'pbxRectangulo
+        '
+        Me.pbxRectangulo.Image = CType(resources.GetObject("pbxRectangulo.Image"), System.Drawing.Image)
+        Me.pbxRectangulo.Location = New System.Drawing.Point(0, 0)
+        Me.pbxRectangulo.Name = "pbxRectangulo"
+        Me.pbxRectangulo.Size = New System.Drawing.Size(1120, 60)
+        Me.pbxRectangulo.TabIndex = 55
+        Me.pbxRectangulo.TabStop = False
         '
         'modificarUserForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Controls.Add(Me.tbxNombreUsuario)
-        Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.btnCancelarMOD)
-        Me.Controls.Add(Me.btnAceptarMOD)
-        Me.Controls.Add(Me.lblAltaUser)
-        Me.Controls.Add(Me.cbxTipoUsuario)
-        Me.Controls.Add(Me.tbxTelefono)
-        Me.Controls.Add(Me.tbxCorreo)
-        Me.Controls.Add(Me.tbxContrasenia)
-        Me.Controls.Add(Me.tbxApellido)
-        Me.Controls.Add(Me.tbxNombre)
-        Me.Controls.Add(Me.lbltipoUsuarioMOD)
-        Me.Controls.Add(Me.lblContraseñaMOD)
-        Me.Controls.Add(Me.lblCorreoMOD)
-        Me.Controls.Add(Me.lblTelMOD)
-        Me.Controls.Add(Me.lblApellidoMOD)
-        Me.Controls.Add(Me.lblNombreMOD)
-        Me.Controls.Add(Me.lblCIMOD)
+        Me.ClientSize = New System.Drawing.Size(1104, 611)
+        Me.Controls.Add(Me.pbxVectorAltaUsuario)
+        Me.Controls.Add(Me.btnAceptar)
+        Me.Controls.Add(Me.btnBorrar)
+        Me.Controls.Add(Me.lblCi)
         Me.Controls.Add(Me.tbxCi)
+        Me.Controls.Add(Me.lblNombreUsuario)
+        Me.Controls.Add(Me.tbxNombreUsuario)
+        Me.Controls.Add(Me.Label4)
+        Me.Controls.Add(Me.tbxTelefono)
+        Me.Controls.Add(Me.Label5)
+        Me.Controls.Add(Me.tbxApellido)
+        Me.Controls.Add(Me.lblContrasenia)
+        Me.Controls.Add(Me.tbxContrasenia)
+        Me.Controls.Add(Me.lblCorreo)
+        Me.Controls.Add(Me.tbxCorreo)
+        Me.Controls.Add(Me.lblNombre)
+        Me.Controls.Add(Me.lblTitulo)
+        Me.Controls.Add(Me.pbxLinea)
+        Me.Controls.Add(Me.pbxRectangulo)
+        Me.Controls.Add(Me.tbxNombre)
         Me.Name = "modificarUserForm"
-        Me.Text = "Modificar usuario"
+        Me.Text = "Mi ciudad"
+        CType(Me.pbxVectorAltaUsuario, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbxLinea, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbxRectangulo, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
 
-    Friend WithEvents cbxTipoUsuario As ComboBox
-    Friend WithEvents tbxTelefono As TextBox
-    Friend WithEvents tbxCorreo As TextBox
-    Friend WithEvents tbxContrasenia As TextBox
-    Friend WithEvents tbxApellido As TextBox
-    Friend WithEvents tbxNombre As TextBox
-    Friend WithEvents lbltipoUsuarioMOD As Label
-    Friend WithEvents lblContraseñaMOD As Label
-    Friend WithEvents lblCorreoMOD As Label
-    Friend WithEvents lblTelMOD As Label
-    Friend WithEvents lblApellidoMOD As Label
-    Friend WithEvents lblNombreMOD As Label
-    Friend WithEvents lblCIMOD As Label
-    Friend WithEvents tbxCi As TextBox
-    Friend WithEvents lblAltaUser As Label
-    Friend WithEvents btnCancelarMOD As Button
-    Friend WithEvents btnAceptarMOD As Button
-    Friend WithEvents tbxNombreUsuario As TextBox
-    Friend WithEvents Label1 As Label
+    Friend WithEvents btnAceptar As Button
+    Friend WithEvents btnBorrar As Button
+    Friend WithEvents lblCi As Label
+    Private WithEvents tbxCi As TextBox
+    Friend WithEvents lblNombreUsuario As Label
+    Private WithEvents tbxNombreUsuario As TextBox
+    Friend WithEvents Label4 As Label
+    Private WithEvents tbxTelefono As TextBox
+    Friend WithEvents Label5 As Label
+    Private WithEvents tbxApellido As TextBox
+    Friend WithEvents lblContrasenia As Label
+    Private WithEvents tbxContrasenia As TextBox
+    Friend WithEvents lblCorreo As Label
+    Private WithEvents tbxCorreo As TextBox
+    Friend WithEvents lblNombre As Label
+    Friend WithEvents lblTitulo As Label
+    Friend WithEvents pbxLinea As PictureBox
+    Friend WithEvents pbxRectangulo As PictureBox
+    Private WithEvents tbxNombre As TextBox
+    Friend WithEvents pbxVectorAltaUsuario As PictureBox
 End Class

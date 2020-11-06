@@ -21,7 +21,7 @@ Public Class PersistenciaUsuario
             cmd.Parameters.Add("@ci", NpgsqlTypes.NpgsqlDbType.Integer).Value = usuarito.Ci
             cmd.Parameters.Add("@name", NpgsqlTypes.NpgsqlDbType.Varchar, 30).Value = usuarito.Nombre
             cmd.Parameters.Add("@surname", NpgsqlTypes.NpgsqlDbType.Varchar, 30).Value = usuarito.Apellido
-            cmd.Parameters.Add("@userType", NpgsqlTypes.NpgsqlDbType.Varchar, 10).Value = usuarito.Tipo
+            cmd.Parameters.Add("@userType", NpgsqlTypes.NpgsqlDbType.Varchar, 10).Value = "Cliente"
             cmd.Parameters.Add("@userName", NpgsqlTypes.NpgsqlDbType.Varchar, 60).Value = usuarito.UserName
 
             cmd.ExecuteReader()
@@ -51,7 +51,7 @@ Public Class PersistenciaUsuario
             cmd.Parameters.Add("@ci", NpgsqlTypes.NpgsqlDbType.Integer).Value = usuarito.Ci
             cmd.Parameters.Add("@name", NpgsqlTypes.NpgsqlDbType.Varchar, 30).Value = usuarito.Nombre
             cmd.Parameters.Add("@surname", NpgsqlTypes.NpgsqlDbType.Varchar, 30).Value = usuarito.Apellido
-            cmd.Parameters.Add("@userType", NpgsqlTypes.NpgsqlDbType.Varchar, 10).Value = usuarito.Tipo
+            cmd.Parameters.Add("@userType", NpgsqlTypes.NpgsqlDbType.Varchar, 10).Value = "Cliente"
             cmd.Parameters.Add("@userName", NpgsqlTypes.NpgsqlDbType.Varchar, 60).Value = usuarito.UserName
 
             cmd.ExecuteReader()

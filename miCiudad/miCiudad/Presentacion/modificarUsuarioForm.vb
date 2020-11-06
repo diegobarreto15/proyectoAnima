@@ -17,9 +17,6 @@
             Dim apellidoUsuario As String
             apellidoUsuario = tbxApellido.Text
 
-            Dim tipoUsuario As String
-            tipoUsuario = cbxTipoUsuario.Items.ToString()
-
             Dim userName As String
             userName = tbxNombreUsuario.Text
 
@@ -32,7 +29,6 @@
             usuarioNueva.Ci = ciUsuario
             usuarioNueva.Nombre = nombreUsuario
             usuarioNueva.Apellido = apellidoUsuario
-            usuarioNueva.Tipo = tipoUsuario
             usuarioNueva.UserName = userName
             usuarioNueva.Passwd = contrasenia
 

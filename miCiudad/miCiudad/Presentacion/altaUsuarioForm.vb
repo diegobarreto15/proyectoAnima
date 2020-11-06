@@ -62,7 +62,7 @@
         End Try
     End Sub
 
-    Private Sub btnBorrar_Click(sender As Object, e As EventArgs) Handles btnBorrar.Click
+    Private Sub btnBorrar_Click(sender As Object, e As EventArgs)
         tbxTelefono.Text = ""
         tbxCorreo.Text = ""
         tbxCi.Text = ""

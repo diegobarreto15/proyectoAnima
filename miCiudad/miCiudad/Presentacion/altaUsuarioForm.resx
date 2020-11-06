@@ -118,6 +118,16 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="pbxLinea.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAABMUAAAAECAYAAACOVYhjAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EwAACxMBAJqcGAAAAPRJREFUeF7t2kENwjAYhuFJQAISkDAJk4AEJCABB0hAAqel67akEpCABPizcCLf
+        mv4X1oT3TZ7swK2H5UtHQ0REREQUQtjDZ5qmFuXmee7GcTyi3DAMpxjjGeXs3K5wu8MlmQdcnuZVo88M
+        2iY1LpCnBgbWMb78GF9+dm5qXCBPDQysY3z5VTu+AAAAUIflckr9AAAAgL+iLheRpy6xsSLGeLOn+lCC
+        dZfvj3HICyEc4WPn1tmzRZm+7w/2lH9igZZS2i2XT7VmL1s1jH5BjQvkyZEBzV7wjC8/xpeTvejlwECW
+        HBnQGF9+1Y8vIiIiItq4pnkDp7/tRnrH044AAAAASUVORK5CYII=
+</value>
+  </data>
   <data name="pbxRectangulo.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAABTAAAAA8CAYAAABRl5W+AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
@@ -130,16 +140,6 @@
         AAAAACBLYAIAAAAAWQITAAAAAMgSmAAAAABAlsAEAAAAALIEJgAAAACQJTABAAAAgCyBCQAAAABkCUwA
         AAAAIEtgAgAAAABZAhMAAAAAyBKYAAAAAECWwAQAAAAAsgQmAAAAAJAlMAEAAACALIEJAAAAAGQJTAAA
         AAAgavYAPd7RvTqjW1YAAAAASUVORK5CYII=
-</value>
-  </data>
-  <data name="pbxLinea.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAABMUAAAAECAYAAACOVYhjAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EwAACxMBAJqcGAAAAPRJREFUeF7t2kENwjAYhuFJQAISkDAJk4AEJCABB0hAAqel67akEpCABPizcCLf
-        mv4X1oT3TZ7swK2H5UtHQ0REREQUQtjDZ5qmFuXmee7GcTyi3DAMpxjjGeXs3K5wu8MlmQdcnuZVo88M
-        2iY1LpCnBgbWMb78GF9+dm5qXCBPDQysY3z5VTu+AAAAUIflckr9AAAAgL+iLheRpy6xsSLGeLOn+lCC
-        dZfvj3HICyEc4WPn1tmzRZm+7w/2lH9igZZS2i2XT7VmL1s1jH5BjQvkyZEBzV7wjC8/xpeTvejlwECW
-        HBnQGF9+1Y8vIiIiItq4pnkDp7/tRnrH044AAAAASUVORK5CYII=
 </value>
   </data>
 </root>

@@ -23,11 +23,7 @@ Partial Class formAltaUsuario
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(formAltaUsuario))
-        Me.btnBorrar = New System.Windows.Forms.Button()
         Me.tbxNombre = New System.Windows.Forms.TextBox()
-        Me.pbxRectangulo = New System.Windows.Forms.PictureBox()
-        Me.pbxLinea = New System.Windows.Forms.PictureBox()
-        Me.pbxVectorAltaUsuario = New System.Windows.Forms.PictureBox()
         Me.lblTitulo = New System.Windows.Forms.Label()
         Me.lblNombre = New System.Windows.Forms.Label()
         Me.lblCorreo = New System.Windows.Forms.Label()
@@ -42,21 +38,15 @@ Partial Class formAltaUsuario
         Me.tbxApellido = New System.Windows.Forms.TextBox()
         Me.lblCi = New System.Windows.Forms.Label()
         Me.tbxCi = New System.Windows.Forms.TextBox()
-        Me.btnAceptar = New System.Windows.Forms.Button()
-        CType(Me.pbxRectangulo, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.pbxLinea, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.btnBorrar = New System.Windows.Forms.Button()
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.pbxVectorAltaUsuario = New System.Windows.Forms.PictureBox()
+        Me.pbxLinea = New System.Windows.Forms.PictureBox()
+        Me.pbxRectangulo = New System.Windows.Forms.PictureBox()
         CType(Me.pbxVectorAltaUsuario, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbxLinea, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbxRectangulo, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
-        '
-        'btnBorrar
-        '
-        Me.btnBorrar.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.5!)
-        Me.btnBorrar.Location = New System.Drawing.Point(376, 507)
-        Me.btnBorrar.Name = "btnBorrar"
-        Me.btnBorrar.Size = New System.Drawing.Size(87, 25)
-        Me.btnBorrar.TabIndex = 30
-        Me.btnBorrar.Text = "Borrar"
-        Me.btnBorrar.UseVisualStyleBackColor = True
         '
         'tbxNombre
         '
@@ -68,41 +58,14 @@ Partial Class formAltaUsuario
         Me.tbxNombre.Size = New System.Drawing.Size(196, 35)
         Me.tbxNombre.TabIndex = 17
         '
-        'pbxRectangulo
-        '
-        Me.pbxRectangulo.Image = CType(resources.GetObject("pbxRectangulo.Image"), System.Drawing.Image)
-        Me.pbxRectangulo.Location = New System.Drawing.Point(0, 0)
-        Me.pbxRectangulo.Name = "pbxRectangulo"
-        Me.pbxRectangulo.Size = New System.Drawing.Size(1120, 60)
-        Me.pbxRectangulo.TabIndex = 33
-        Me.pbxRectangulo.TabStop = False
-        '
-        'pbxLinea
-        '
-        Me.pbxLinea.Image = CType(resources.GetObject("pbxLinea.Image"), System.Drawing.Image)
-        Me.pbxLinea.Location = New System.Drawing.Point(60, 120)
-        Me.pbxLinea.Name = "pbxLinea"
-        Me.pbxLinea.Size = New System.Drawing.Size(1000, 14)
-        Me.pbxLinea.TabIndex = 34
-        Me.pbxLinea.TabStop = False
-        '
-        'pbxVectorAltaUsuario
-        '
-        Me.pbxVectorAltaUsuario.Image = Global.miCiudad.My.Resources.Resources.Vector
-        Me.pbxVectorAltaUsuario.Location = New System.Drawing.Point(85, 88)
-        Me.pbxVectorAltaUsuario.Name = "pbxVectorAltaUsuario"
-        Me.pbxVectorAltaUsuario.Size = New System.Drawing.Size(34, 27)
-        Me.pbxVectorAltaUsuario.TabIndex = 35
-        Me.pbxVectorAltaUsuario.TabStop = False
-        '
         'lblTitulo
         '
         Me.lblTitulo.AutoSize = True
-        Me.lblTitulo.Font = New System.Drawing.Font("MS Reference Sans Serif", 16.0!)
+        Me.lblTitulo.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.0!)
         Me.lblTitulo.ForeColor = System.Drawing.SystemColors.ControlDarkDark
         Me.lblTitulo.Location = New System.Drawing.Point(123, 85)
         Me.lblTitulo.Name = "lblTitulo"
-        Me.lblTitulo.Size = New System.Drawing.Size(143, 28)
+        Me.lblTitulo.Size = New System.Drawing.Size(127, 26)
         Me.lblTitulo.TabIndex = 37
         Me.lblTitulo.Text = "Alta usuario"
         '
@@ -237,18 +200,60 @@ Partial Class formAltaUsuario
         Me.tbxCi.Size = New System.Drawing.Size(196, 35)
         Me.tbxCi.TabIndex = 49
         '
-        'btnAceptar
+        'btnBorrar
         '
-        Me.btnAceptar.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(120, Byte), Integer), CType(CType(120, Byte), Integer))
-        Me.btnAceptar.FlatAppearance.BorderSize = 0
-        Me.btnAceptar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnAceptar.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.5!)
-        Me.btnAceptar.Location = New System.Drawing.Point(586, 507)
-        Me.btnAceptar.Name = "btnAceptar"
-        Me.btnAceptar.Size = New System.Drawing.Size(97, 36)
-        Me.btnAceptar.TabIndex = 51
-        Me.btnAceptar.Text = "Button1"
-        Me.btnAceptar.UseVisualStyleBackColor = False
+        Me.btnBorrar.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(120, Byte), Integer), CType(CType(120, Byte), Integer))
+        Me.btnBorrar.DialogResult = System.Windows.Forms.DialogResult.Cancel
+        Me.btnBorrar.FlatAppearance.BorderSize = 0
+        Me.btnBorrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnBorrar.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.5!)
+        Me.btnBorrar.Location = New System.Drawing.Point(386, 507)
+        Me.btnBorrar.Name = "btnBorrar"
+        Me.btnBorrar.Size = New System.Drawing.Size(97, 36)
+        Me.btnBorrar.TabIndex = 51
+        Me.btnBorrar.Text = "Vaciar"
+        Me.btnBorrar.UseVisualStyleBackColor = False
+        '
+        'Button1
+        '
+        Me.Button1.BackColor = System.Drawing.Color.FromArgb(CType(CType(144, Byte), Integer), CType(CType(200, Byte), Integer), CType(CType(251, Byte), Integer))
+        Me.Button1.DialogResult = System.Windows.Forms.DialogResult.Cancel
+        Me.Button1.FlatAppearance.BorderSize = 0
+        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.5!)
+        Me.Button1.Location = New System.Drawing.Point(633, 507)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(97, 36)
+        Me.Button1.TabIndex = 53
+        Me.Button1.Text = "Vaciar"
+        Me.Button1.UseVisualStyleBackColor = False
+        '
+        'pbxVectorAltaUsuario
+        '
+        Me.pbxVectorAltaUsuario.Image = Global.miCiudad.My.Resources.Resources.Vector
+        Me.pbxVectorAltaUsuario.Location = New System.Drawing.Point(85, 88)
+        Me.pbxVectorAltaUsuario.Name = "pbxVectorAltaUsuario"
+        Me.pbxVectorAltaUsuario.Size = New System.Drawing.Size(34, 27)
+        Me.pbxVectorAltaUsuario.TabIndex = 35
+        Me.pbxVectorAltaUsuario.TabStop = False
+        '
+        'pbxLinea
+        '
+        Me.pbxLinea.Image = CType(resources.GetObject("pbxLinea.Image"), System.Drawing.Image)
+        Me.pbxLinea.Location = New System.Drawing.Point(60, 120)
+        Me.pbxLinea.Name = "pbxLinea"
+        Me.pbxLinea.Size = New System.Drawing.Size(1000, 14)
+        Me.pbxLinea.TabIndex = 34
+        Me.pbxLinea.TabStop = False
+        '
+        'pbxRectangulo
+        '
+        Me.pbxRectangulo.Image = CType(resources.GetObject("pbxRectangulo.Image"), System.Drawing.Image)
+        Me.pbxRectangulo.Location = New System.Drawing.Point(0, 0)
+        Me.pbxRectangulo.Name = "pbxRectangulo"
+        Me.pbxRectangulo.Size = New System.Drawing.Size(1120, 60)
+        Me.pbxRectangulo.TabIndex = 33
+        Me.pbxRectangulo.TabStop = False
         '
         'formAltaUsuario
         '
@@ -257,7 +262,8 @@ Partial Class formAltaUsuario
         Me.BackColor = System.Drawing.Color.White
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.ClientSize = New System.Drawing.Size(1104, 611)
-        Me.Controls.Add(Me.btnAceptar)
+        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.btnBorrar)
         Me.Controls.Add(Me.lblCi)
         Me.Controls.Add(Me.tbxCi)
         Me.Controls.Add(Me.lblNombreUsuario)
@@ -275,20 +281,19 @@ Partial Class formAltaUsuario
         Me.Controls.Add(Me.pbxVectorAltaUsuario)
         Me.Controls.Add(Me.pbxLinea)
         Me.Controls.Add(Me.pbxRectangulo)
-        Me.Controls.Add(Me.btnBorrar)
         Me.Controls.Add(Me.tbxNombre)
         Me.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Name = "formAltaUsuario"
-        Me.Text = "Alta usuario"
-        CType(Me.pbxRectangulo, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.pbxLinea, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
+        Me.Text = "Mi ciudad"
         CType(Me.pbxVectorAltaUsuario, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbxLinea, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbxRectangulo, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
-    Friend WithEvents btnBorrar As Button
     Friend WithEvents pbxRectangulo As PictureBox
     Friend WithEvents pbxLinea As PictureBox
     Friend WithEvents pbxVectorAltaUsuario As PictureBox
@@ -307,5 +312,6 @@ Partial Class formAltaUsuario
     Private WithEvents tbxApellido As TextBox
     Friend WithEvents lblCi As Label
     Private WithEvents tbxCi As TextBox
-    Friend WithEvents btnAceptar As Button
+    Friend WithEvents btnBorrar As Button
+    Friend WithEvents Button1 As Button
 End Class
