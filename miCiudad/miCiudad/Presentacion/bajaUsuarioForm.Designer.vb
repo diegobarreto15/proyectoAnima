@@ -110,7 +110,7 @@ Partial Class bajaUsuarioForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(1104, 611)
         Me.Controls.Add(Me.pbxRectangulo)
         Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.PictureBox1)
@@ -119,6 +119,7 @@ Partial Class bajaUsuarioForm
         Me.Controls.Add(Me.tbxCI)
         Me.Controls.Add(Me.lblAltaUser)
         Me.Name = "bajaUsuarioForm"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Baja usuario"
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()

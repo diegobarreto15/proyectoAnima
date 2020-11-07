@@ -1,5 +1,5 @@
 ﻿Public Class modificarEstadoReporteForm
-    Private Sub btnAceptarModReport_Click(sender As Object, e As EventArgs) Handles btnAceptar.Click
+    Private Sub btnAceptarModReport_Click(sender As Object, e As EventArgs)
         Try
 
             Dim estadoReporte As String
@@ -20,6 +20,7 @@
         End Try
     End Sub
 
+    Private Sub btnAceptar_Click(sender As Object, e As EventArgs) Handles btnAceptar.Click
 
-
+    End Sub
 End Class

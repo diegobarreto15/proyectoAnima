@@ -17,22 +17,11 @@
         End If
     End Sub
 
-    Private Sub lblAltaUser_Click(sender As Object, e As EventArgs) Handles lblAltaUser.Click
-
-    End Sub
-
-    Private Sub btnBorrar_Click(sender As Object, e As EventArgs)
-
-    End Sub
-
     Private Sub bajaUsuarioForm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Dim ButtonPath As Drawing2D.GraphicsPath = New Drawing2D.GraphicsPath()
         Dim myRectangle As Rectangle = btnAceptarBaja.ClientRectangle
         myRectangle.Inflate(1, 20)
         ButtonPath.AddEllipse(myRectangle)
         btnAceptarBaja.Region = New Region(ButtonPath)
-
-
-
     End Sub
 End Class

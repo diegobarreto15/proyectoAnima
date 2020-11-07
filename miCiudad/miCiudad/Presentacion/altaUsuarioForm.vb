@@ -6,6 +6,7 @@
         tbxNombre.Text = ""
         tbxApellido.Text = ""
         tbxContrasenia.Text = ""
+        tbxNombreUsuario.Text = ""
     End Sub
 
     Private Sub btnAceptar_Click_1(sender As Object, e As EventArgs) Handles btnAceptar.Click
@@ -26,11 +27,14 @@
             Dim contrasenia As String
             contrasenia = tbxContrasenia.Text
 
+            Dim nombreUsuarioUsuario As String
+            nombreUsuarioUsuario = tbxNombreUsuario.Text
+
             Dim usuarioNueva = New ClaseUsuario()
             Dim logica As New LogicaUsuario()
 
-            If emailUsuario <> "" And ciUsuario.ToString <> "" And apellidoUsuario <> "" And nombreUsuario <> "" And contrasenia <> "" Then
-
+            If emailUsuario <> "" And nombreUsuarioUsuario <> "" And ciUsuario.ToString <> "" And apellidoUsuario <> "" And nombreUsuario <> "" And contrasenia <> "" Then
+                usuarioNueva.NombreUsuario = nombreUsuario
                 usuarioNueva.Email = emailUsuario
                 usuarioNueva.Ci = ciUsuario
                 usuarioNueva.Nombre = nombreUsuario
@@ -40,28 +44,25 @@
                 logica.altaUsuario(usuarioNueva)
 
             Else
-                If emailUsuario = "" Or ciUsuario.ToString = "" Or nombreUsuario = "" Or apellidoUsuario = "" Or contrasenia = "" Then
+                'Por si cualquier casillero esta vacio
+                If emailUsuario = "" Or nombreUsuarioUsuario = "" Or ciUsuario.ToString = "" Or nombreUsuario = "" Or apellidoUsuario = "" Or contrasenia = "" Then
                     MsgBox("No puedes dejar ninguna casilla vacia")
                 End If
+
+
             End If
-
-
-
-            '      Dim usuarioNueva = New ClaseUsuario()
-            '       usuarioNueva.Tel = telUsuario
-            '        usuarioNueva.Email = emailUsuario
-            '         usuarioNueva.Ci = ciUsuario
-            '          usuarioNueva.Nombre = nombreUsuario
-            '           usuarioNueva.Apellido = apellidoUsuario
-            '            usuarioNueva.UserName = userName
-            '            usuarioNueva.Passwd = contrasenia
-
-            'Dim logica As New LogicaUsuario()
-            'logica.altaUsuario(usuarioNueva)
 
         Catch ex As Exception
             MsgBox("un error: " + ex.Message)
         End Try
+    End Sub
+
+    Private Sub altaUsuarioForm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Dim ButtonPath As Drawing2D.GraphicsPath = New Drawing2D.GraphicsPath()
+        Dim myRectangle As Rectangle = btnAceptar.ClientRectangle
+        myRectangle.Inflate(-5, 10)
+        ButtonPath.AddEllipse(myRectangle)
+        btnAceptar.Region = New Region(ButtonPath)
     End Sub
 
 

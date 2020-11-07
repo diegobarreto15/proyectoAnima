@@ -39,7 +39,7 @@ Partial Class mainForm
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.UsuariosToolStripMenuItem, Me.ReportesToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(800, 24)
+        Me.MenuStrip1.Size = New System.Drawing.Size(1104, 24)
         Me.MenuStrip1.TabIndex = 0
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -59,7 +59,7 @@ Partial Class mainForm
         'BajaUsuarioToolStripMenuItem
         '
         Me.BajaUsuarioToolStripMenuItem.Name = "BajaUsuarioToolStripMenuItem"
-        Me.BajaUsuarioToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.BajaUsuarioToolStripMenuItem.Size = New System.Drawing.Size(167, 22)
         Me.BajaUsuarioToolStripMenuItem.Text = "Baja usuario"
         '
         'ModificarUsuarioToolStripMenuItem
@@ -97,10 +97,11 @@ Partial Class mainForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(1104, 611)
         Me.Controls.Add(Me.MenuStrip1)
         Me.MainMenuStrip = Me.MenuStrip1
         Me.Name = "mainForm"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Menu"
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()

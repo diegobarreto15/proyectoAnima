@@ -280,7 +280,9 @@ Partial Class modificarUserForm
         Me.Controls.Add(Me.pbxLinea)
         Me.Controls.Add(Me.pbxRectangulo)
         Me.Controls.Add(Me.tbxNombre)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "modificarUserForm"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Mi ciudad"
         CType(Me.pbxVectorAltaUsuario, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.pbxLinea, System.ComponentModel.ISupportInitialize).EndInit()

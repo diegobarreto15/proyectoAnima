@@ -39,6 +39,8 @@ Partial Class formAltaUsuario
         Me.pbxVectorAltaUsuario = New System.Windows.Forms.PictureBox()
         Me.pbxLinea = New System.Windows.Forms.PictureBox()
         Me.pbxRectangulo = New System.Windows.Forms.PictureBox()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.tbxNombreUsuario = New System.Windows.Forms.TextBox()
         CType(Me.pbxVectorAltaUsuario, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.pbxLinea, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.pbxRectangulo, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -121,7 +123,7 @@ Partial Class formAltaUsuario
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.5!)
         Me.Label5.ForeColor = System.Drawing.SystemColors.ControlDarkDark
-        Me.Label5.Location = New System.Drawing.Point(629, 195)
+        Me.Label5.Location = New System.Drawing.Point(629, 179)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(68, 20)
         Me.Label5.TabIndex = 44
@@ -130,7 +132,7 @@ Partial Class formAltaUsuario
         'tbxApellido
         '
         Me.tbxApellido.Font = New System.Drawing.Font("Microsoft Tai Le", 12.5!)
-        Me.tbxApellido.Location = New System.Drawing.Point(631, 227)
+        Me.tbxApellido.Location = New System.Drawing.Point(633, 211)
         Me.tbxApellido.Multiline = True
         Me.tbxApellido.Name = "tbxApellido"
         Me.tbxApellido.Size = New System.Drawing.Size(196, 35)
@@ -141,7 +143,7 @@ Partial Class formAltaUsuario
         Me.lblCi.AutoSize = True
         Me.lblCi.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.5!)
         Me.lblCi.ForeColor = System.Drawing.SystemColors.ControlDarkDark
-        Me.lblCi.Location = New System.Drawing.Point(631, 271)
+        Me.lblCi.Location = New System.Drawing.Point(629, 271)
         Me.lblCi.Name = "lblCi"
         Me.lblCi.Size = New System.Drawing.Size(33, 20)
         Me.lblCi.TabIndex = 50
@@ -172,6 +174,7 @@ Partial Class formAltaUsuario
         '
         'btnAceptar
         '
+        Me.btnAceptar.AutoSize = True
         Me.btnAceptar.BackColor = System.Drawing.Color.FromArgb(CType(CType(144, Byte), Integer), CType(CType(200, Byte), Integer), CType(CType(251, Byte), Integer))
         Me.btnAceptar.FlatAppearance.BorderSize = 0
         Me.btnAceptar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
@@ -210,6 +213,26 @@ Partial Class formAltaUsuario
         Me.pbxRectangulo.TabIndex = 33
         Me.pbxRectangulo.TabStop = False
         '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.5!)
+        Me.Label1.ForeColor = System.Drawing.SystemColors.ControlDarkDark
+        Me.Label1.Location = New System.Drawing.Point(629, 367)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(151, 20)
+        Me.Label1.TabIndex = 55
+        Me.Label1.Text = "Nombre de usuario"
+        '
+        'tbxNombreUsuario
+        '
+        Me.tbxNombreUsuario.Font = New System.Drawing.Font("Microsoft Tai Le", 12.5!)
+        Me.tbxNombreUsuario.Location = New System.Drawing.Point(633, 399)
+        Me.tbxNombreUsuario.Multiline = True
+        Me.tbxNombreUsuario.Name = "tbxNombreUsuario"
+        Me.tbxNombreUsuario.Size = New System.Drawing.Size(196, 35)
+        Me.tbxNombreUsuario.TabIndex = 54
+        '
         'formAltaUsuario
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -217,6 +240,8 @@ Partial Class formAltaUsuario
         Me.BackColor = System.Drawing.Color.White
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.ClientSize = New System.Drawing.Size(1104, 611)
+        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.tbxNombreUsuario)
         Me.Controls.Add(Me.btnAceptar)
         Me.Controls.Add(Me.btnBorrar)
         Me.Controls.Add(Me.lblCi)
@@ -261,4 +286,6 @@ Partial Class formAltaUsuario
     Private WithEvents tbxCi As TextBox
     Friend WithEvents btnBorrar As Button
     Friend WithEvents btnAceptar As Button
+    Friend WithEvents Label1 As Label
+    Private WithEvents tbxNombreUsuario As TextBox
 End Class
