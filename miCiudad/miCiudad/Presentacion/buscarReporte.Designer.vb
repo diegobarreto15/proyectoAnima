@@ -24,7 +24,6 @@ Partial Class buscarReporte
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(buscarReporte))
         Me.btnAceptar = New System.Windows.Forms.Button()
-        Me.btnBorrar = New System.Windows.Forms.Button()
         Me.lblNombre = New System.Windows.Forms.Label()
         Me.lblTitulo = New System.Windows.Forms.Label()
         Me.pbxVectorAltaUsuario = New System.Windows.Forms.PictureBox()
@@ -43,26 +42,12 @@ Partial Class buscarReporte
         Me.btnAceptar.FlatAppearance.BorderSize = 0
         Me.btnAceptar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnAceptar.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.5!)
-        Me.btnAceptar.Location = New System.Drawing.Point(633, 507)
+        Me.btnAceptar.Location = New System.Drawing.Point(393, 501)
         Me.btnAceptar.Name = "btnAceptar"
         Me.btnAceptar.Size = New System.Drawing.Size(97, 36)
         Me.btnAceptar.TabIndex = 71
-        Me.btnAceptar.Text = "Aceptar"
+        Me.btnAceptar.Text = "Buscar"
         Me.btnAceptar.UseVisualStyleBackColor = False
-        '
-        'btnBorrar
-        '
-        Me.btnBorrar.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(120, Byte), Integer), CType(CType(120, Byte), Integer))
-        Me.btnBorrar.DialogResult = System.Windows.Forms.DialogResult.Cancel
-        Me.btnBorrar.FlatAppearance.BorderSize = 0
-        Me.btnBorrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnBorrar.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.5!)
-        Me.btnBorrar.Location = New System.Drawing.Point(390, 507)
-        Me.btnBorrar.Name = "btnBorrar"
-        Me.btnBorrar.Size = New System.Drawing.Size(97, 36)
-        Me.btnBorrar.TabIndex = 70
-        Me.btnBorrar.Text = "Vaciar"
-        Me.btnBorrar.UseVisualStyleBackColor = False
         '
         'lblNombre
         '
@@ -120,7 +105,7 @@ Partial Class buscarReporte
         Me.tbxNombre.Location = New System.Drawing.Point(94, 211)
         Me.tbxNombre.Multiline = True
         Me.tbxNombre.Name = "tbxNombre"
-        Me.tbxNombre.Size = New System.Drawing.Size(196, 35)
+        Me.tbxNombre.Size = New System.Drawing.Size(314, 35)
         Me.tbxNombre.TabIndex = 56
         '
         'buscarReporte
@@ -129,7 +114,6 @@ Partial Class buscarReporte
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1104, 611)
         Me.Controls.Add(Me.btnAceptar)
-        Me.Controls.Add(Me.btnBorrar)
         Me.Controls.Add(Me.lblNombre)
         Me.Controls.Add(Me.lblTitulo)
         Me.Controls.Add(Me.pbxVectorAltaUsuario)
@@ -148,7 +132,6 @@ Partial Class buscarReporte
     End Sub
 
     Friend WithEvents btnAceptar As Button
-    Friend WithEvents btnBorrar As Button
     Friend WithEvents lblNombre As Label
     Friend WithEvents lblTitulo As Label
     Friend WithEvents pbxVectorAltaUsuario As PictureBox

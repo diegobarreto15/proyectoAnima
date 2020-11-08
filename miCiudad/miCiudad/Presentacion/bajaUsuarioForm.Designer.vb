@@ -42,11 +42,11 @@ Partial Class bajaUsuarioForm
         Me.btnAceptar.FlatAppearance.BorderSize = 0
         Me.btnAceptar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnAceptar.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.5!)
-        Me.btnAceptar.Location = New System.Drawing.Point(633, 507)
+        Me.btnAceptar.Location = New System.Drawing.Point(372, 524)
         Me.btnAceptar.Name = "btnAceptar"
-        Me.btnAceptar.Size = New System.Drawing.Size(97, 36)
+        Me.btnAceptar.Size = New System.Drawing.Size(140, 36)
         Me.btnAceptar.TabIndex = 71
-        Me.btnAceptar.Text = "Aceptar"
+        Me.btnAceptar.Text = "Eliminar usuario"
         Me.btnAceptar.UseVisualStyleBackColor = False
         '
         'lblCi
@@ -56,9 +56,9 @@ Partial Class bajaUsuarioForm
         Me.lblCi.ForeColor = System.Drawing.SystemColors.ControlDarkDark
         Me.lblCi.Location = New System.Drawing.Point(81, 179)
         Me.lblCi.Name = "lblCi"
-        Me.lblCi.Size = New System.Drawing.Size(33, 20)
+        Me.lblCi.Size = New System.Drawing.Size(61, 20)
         Me.lblCi.TabIndex = 69
-        Me.lblCi.Text = "C.I."
+        Me.lblCi.Text = "Cedula"
         '
         'tbxCi
         '
@@ -66,7 +66,7 @@ Partial Class bajaUsuarioForm
         Me.tbxCi.Location = New System.Drawing.Point(85, 211)
         Me.tbxCi.Multiline = True
         Me.tbxCi.Name = "tbxCi"
-        Me.tbxCi.Size = New System.Drawing.Size(196, 35)
+        Me.tbxCi.Size = New System.Drawing.Size(368, 35)
         Me.tbxCi.TabIndex = 68
         '
         'lblTitulo
