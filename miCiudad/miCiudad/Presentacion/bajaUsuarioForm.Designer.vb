@@ -23,79 +23,80 @@ Partial Class bajaUsuarioForm
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(bajaUsuarioForm))
-        Me.lblAltaUser = New System.Windows.Forms.Label()
-        Me.tbxCI = New System.Windows.Forms.TextBox()
-        Me.blCI = New System.Windows.Forms.Label()
-        Me.btnAceptarBaja = New System.Windows.Forms.Button()
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.btnAceptar = New System.Windows.Forms.Button()
+        Me.lblCi = New System.Windows.Forms.Label()
+        Me.tbxCi = New System.Windows.Forms.TextBox()
+        Me.lblTitulo = New System.Windows.Forms.Label()
+        Me.pbxVectorAltaUsuario = New System.Windows.Forms.PictureBox()
+        Me.pbxLinea = New System.Windows.Forms.PictureBox()
         Me.pbxRectangulo = New System.Windows.Forms.PictureBox()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbxVectorAltaUsuario, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbxLinea, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.pbxRectangulo, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
-        'lblAltaUser
+        'btnAceptar
         '
-        Me.lblAltaUser.AutoSize = True
-        Me.lblAltaUser.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.0!)
-        Me.lblAltaUser.ForeColor = System.Drawing.SystemColors.ControlDarkDark
-        Me.lblAltaUser.Location = New System.Drawing.Point(123, 85)
-        Me.lblAltaUser.Name = "lblAltaUser"
-        Me.lblAltaUser.Size = New System.Drawing.Size(133, 26)
-        Me.lblAltaUser.TabIndex = 2
-        Me.lblAltaUser.Text = "Baja usuario"
+        Me.btnAceptar.AutoSize = True
+        Me.btnAceptar.BackColor = System.Drawing.Color.FromArgb(CType(CType(144, Byte), Integer), CType(CType(200, Byte), Integer), CType(CType(251, Byte), Integer))
+        Me.btnAceptar.FlatAppearance.BorderSize = 0
+        Me.btnAceptar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnAceptar.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.5!)
+        Me.btnAceptar.Location = New System.Drawing.Point(633, 507)
+        Me.btnAceptar.Name = "btnAceptar"
+        Me.btnAceptar.Size = New System.Drawing.Size(97, 36)
+        Me.btnAceptar.TabIndex = 71
+        Me.btnAceptar.Text = "Aceptar"
+        Me.btnAceptar.UseVisualStyleBackColor = False
         '
-        'tbxCI
+        'lblCi
         '
-        Me.tbxCI.Location = New System.Drawing.Point(80, 216)
-        Me.tbxCI.Name = "tbxCI"
-        Me.tbxCI.Size = New System.Drawing.Size(275, 20)
-        Me.tbxCI.TabIndex = 3
+        Me.lblCi.AutoSize = True
+        Me.lblCi.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.5!)
+        Me.lblCi.ForeColor = System.Drawing.SystemColors.ControlDarkDark
+        Me.lblCi.Location = New System.Drawing.Point(81, 179)
+        Me.lblCi.Name = "lblCi"
+        Me.lblCi.Size = New System.Drawing.Size(33, 20)
+        Me.lblCi.TabIndex = 69
+        Me.lblCi.Text = "C.I."
         '
-        'blCI
+        'tbxCi
         '
-        Me.blCI.AutoSize = True
-        Me.blCI.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.blCI.ForeColor = System.Drawing.SystemColors.GrayText
-        Me.blCI.Location = New System.Drawing.Point(77, 179)
-        Me.blCI.Name = "blCI"
-        Me.blCI.Size = New System.Drawing.Size(51, 16)
-        Me.blCI.TabIndex = 4
-        Me.blCI.Text = "Cedula"
+        Me.tbxCi.Font = New System.Drawing.Font("Microsoft Tai Le", 12.5!)
+        Me.tbxCi.Location = New System.Drawing.Point(85, 211)
+        Me.tbxCi.Multiline = True
+        Me.tbxCi.Name = "tbxCi"
+        Me.tbxCi.Size = New System.Drawing.Size(196, 35)
+        Me.tbxCi.TabIndex = 68
         '
-        'btnAceptarBaja
+        'lblTitulo
         '
-        Me.btnAceptarBaja.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(120, Byte), Integer), CType(CType(120, Byte), Integer))
-        Me.btnAceptarBaja.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.btnAceptarBaja.FlatAppearance.BorderSize = 0
-        Me.btnAceptarBaja.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnAceptarBaja.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnAceptarBaja.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.btnAceptarBaja.Location = New System.Drawing.Point(320, 362)
-        Me.btnAceptarBaja.Name = "btnAceptarBaja"
-        Me.btnAceptarBaja.Size = New System.Drawing.Size(176, 29)
-        Me.btnAceptarBaja.TabIndex = 5
-        Me.btnAceptarBaja.Text = "Eliminar usuario"
-        Me.btnAceptarBaja.UseVisualStyleBackColor = False
+        Me.lblTitulo.AutoSize = True
+        Me.lblTitulo.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.0!)
+        Me.lblTitulo.ForeColor = System.Drawing.SystemColors.ControlDarkDark
+        Me.lblTitulo.Location = New System.Drawing.Point(123, 85)
+        Me.lblTitulo.Name = "lblTitulo"
+        Me.lblTitulo.Size = New System.Drawing.Size(133, 26)
+        Me.lblTitulo.TabIndex = 60
+        Me.lblTitulo.Text = "Baja usuario"
         '
-        'PictureBox2
+        'pbxVectorAltaUsuario
         '
-        Me.PictureBox2.Image = Global.miCiudad.My.Resources.Resources.Line_1
-        Me.PictureBox2.Location = New System.Drawing.Point(50, 120)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(691, 11)
-        Me.PictureBox2.TabIndex = 7
-        Me.PictureBox2.TabStop = False
+        Me.pbxVectorAltaUsuario.Image = Global.miCiudad.My.Resources.Resources.Vector
+        Me.pbxVectorAltaUsuario.Location = New System.Drawing.Point(85, 88)
+        Me.pbxVectorAltaUsuario.Name = "pbxVectorAltaUsuario"
+        Me.pbxVectorAltaUsuario.Size = New System.Drawing.Size(34, 27)
+        Me.pbxVectorAltaUsuario.TabIndex = 59
+        Me.pbxVectorAltaUsuario.TabStop = False
         '
-        'PictureBox1
+        'pbxLinea
         '
-        Me.PictureBox1.Image = Global.miCiudad.My.Resources.Resources.Vector
-        Me.PictureBox1.Location = New System.Drawing.Point(85, 88)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(32, 26)
-        Me.PictureBox1.TabIndex = 6
-        Me.PictureBox1.TabStop = False
+        Me.pbxLinea.Image = CType(resources.GetObject("pbxLinea.Image"), System.Drawing.Image)
+        Me.pbxLinea.Location = New System.Drawing.Point(60, 120)
+        Me.pbxLinea.Name = "pbxLinea"
+        Me.pbxLinea.Size = New System.Drawing.Size(1000, 14)
+        Me.pbxLinea.TabIndex = 58
+        Me.pbxLinea.TabStop = False
         '
         'pbxRectangulo
         '
@@ -103,7 +104,7 @@ Partial Class bajaUsuarioForm
         Me.pbxRectangulo.Location = New System.Drawing.Point(0, 0)
         Me.pbxRectangulo.Name = "pbxRectangulo"
         Me.pbxRectangulo.Size = New System.Drawing.Size(1120, 60)
-        Me.pbxRectangulo.TabIndex = 34
+        Me.pbxRectangulo.TabIndex = 57
         Me.pbxRectangulo.TabStop = False
         '
         'bajaUsuarioForm
@@ -111,29 +112,29 @@ Partial Class bajaUsuarioForm
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1104, 611)
+        Me.Controls.Add(Me.btnAceptar)
+        Me.Controls.Add(Me.lblCi)
+        Me.Controls.Add(Me.tbxCi)
+        Me.Controls.Add(Me.lblTitulo)
+        Me.Controls.Add(Me.pbxVectorAltaUsuario)
+        Me.Controls.Add(Me.pbxLinea)
         Me.Controls.Add(Me.pbxRectangulo)
-        Me.Controls.Add(Me.PictureBox2)
-        Me.Controls.Add(Me.PictureBox1)
-        Me.Controls.Add(Me.btnAceptarBaja)
-        Me.Controls.Add(Me.blCI)
-        Me.Controls.Add(Me.tbxCI)
-        Me.Controls.Add(Me.lblAltaUser)
         Me.Name = "bajaUsuarioForm"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Baja usuario"
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbxVectorAltaUsuario, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbxLinea, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.pbxRectangulo, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
 
-    Friend WithEvents lblAltaUser As Label
-    Friend WithEvents tbxCI As TextBox
-    Friend WithEvents blCI As Label
-    Friend WithEvents btnAceptarBaja As Button
-    Friend WithEvents PictureBox1 As PictureBox
-    Friend WithEvents PictureBox2 As PictureBox
+    Friend WithEvents btnAceptar As Button
+    Friend WithEvents lblCi As Label
+    Private WithEvents tbxCi As TextBox
+    Friend WithEvents lblTitulo As Label
+    Friend WithEvents pbxVectorAltaUsuario As PictureBox
+    Friend WithEvents pbxLinea As PictureBox
     Friend WithEvents pbxRectangulo As PictureBox
 End Class
