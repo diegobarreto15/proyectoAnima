@@ -1,9 +1,7 @@
 ﻿Public Class modificarUserForm
-    Private Sub modificarUserForm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
+    Private Sub btnAceptar_Click(sender As Object, e As EventArgs) Handles btnAceptar.Click
         Try
-            Dim telUsuario As Integer
-            telUsuario = tbxTelefono.Text
 
             Dim emailUsuario As String
             emailUsuario = tbxCorreo.Text
@@ -35,6 +33,5 @@
         Catch ex As Exception
             MsgBox("un error: " + ex.Message)
         End Try
-
     End Sub
 End Class

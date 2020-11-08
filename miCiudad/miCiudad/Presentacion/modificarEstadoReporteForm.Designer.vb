@@ -25,7 +25,6 @@ Partial Class modificarEstadoReporteForm
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(modificarEstadoReporteForm))
         Me.cbxEstado = New System.Windows.Forms.ComboBox()
         Me.btnAceptar = New System.Windows.Forms.Button()
-        Me.btnBorrar = New System.Windows.Forms.Button()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.lblNombre = New System.Windows.Forms.Label()
         Me.lblTitulo = New System.Windows.Forms.Label()
@@ -61,20 +60,6 @@ Partial Class modificarEstadoReporteForm
         Me.btnAceptar.TabIndex = 81
         Me.btnAceptar.Text = "Aceptar"
         Me.btnAceptar.UseVisualStyleBackColor = False
-        '
-        'btnBorrar
-        '
-        Me.btnBorrar.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(120, Byte), Integer), CType(CType(120, Byte), Integer))
-        Me.btnBorrar.DialogResult = System.Windows.Forms.DialogResult.Cancel
-        Me.btnBorrar.FlatAppearance.BorderSize = 0
-        Me.btnBorrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnBorrar.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.5!)
-        Me.btnBorrar.Location = New System.Drawing.Point(390, 507)
-        Me.btnBorrar.Name = "btnBorrar"
-        Me.btnBorrar.Size = New System.Drawing.Size(97, 36)
-        Me.btnBorrar.TabIndex = 80
-        Me.btnBorrar.Text = "Vaciar"
-        Me.btnBorrar.UseVisualStyleBackColor = False
         '
         'Label5
         '
@@ -153,7 +138,6 @@ Partial Class modificarEstadoReporteForm
         Me.ClientSize = New System.Drawing.Size(1104, 611)
         Me.Controls.Add(Me.cbxEstado)
         Me.Controls.Add(Me.btnAceptar)
-        Me.Controls.Add(Me.btnBorrar)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.lblNombre)
         Me.Controls.Add(Me.lblTitulo)
@@ -174,7 +158,6 @@ Partial Class modificarEstadoReporteForm
 
     Protected WithEvents cbxEstado As ComboBox
     Friend WithEvents btnAceptar As Button
-    Friend WithEvents btnBorrar As Button
     Friend WithEvents Label5 As Label
     Friend WithEvents lblNombre As Label
     Friend WithEvents lblTitulo As Label
