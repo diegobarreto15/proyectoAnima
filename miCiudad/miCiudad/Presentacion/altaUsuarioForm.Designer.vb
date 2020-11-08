@@ -145,9 +145,9 @@ Partial Class formAltaUsuario
         Me.lblCi.ForeColor = System.Drawing.SystemColors.ControlDarkDark
         Me.lblCi.Location = New System.Drawing.Point(629, 271)
         Me.lblCi.Name = "lblCi"
-        Me.lblCi.Size = New System.Drawing.Size(33, 20)
+        Me.lblCi.Size = New System.Drawing.Size(61, 20)
         Me.lblCi.TabIndex = 50
-        Me.lblCi.Text = "C.I."
+        Me.lblCi.Text = "Cedula"
         '
         'tbxCi
         '

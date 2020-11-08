@@ -42,7 +42,7 @@ Partial Class buscarReporte
         Me.btnAceptar.FlatAppearance.BorderSize = 0
         Me.btnAceptar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnAceptar.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.5!)
-        Me.btnAceptar.Location = New System.Drawing.Point(393, 501)
+        Me.btnAceptar.Location = New System.Drawing.Point(560, 507)
         Me.btnAceptar.Name = "btnAceptar"
         Me.btnAceptar.Size = New System.Drawing.Size(97, 36)
         Me.btnAceptar.TabIndex = 71

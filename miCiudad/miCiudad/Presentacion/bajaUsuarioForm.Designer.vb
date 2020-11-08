@@ -38,11 +38,11 @@ Partial Class bajaUsuarioForm
         'btnAceptar
         '
         Me.btnAceptar.AutoSize = True
-        Me.btnAceptar.BackColor = System.Drawing.Color.FromArgb(CType(CType(144, Byte), Integer), CType(CType(200, Byte), Integer), CType(CType(251, Byte), Integer))
+        Me.btnAceptar.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(120, Byte), Integer), CType(CType(120, Byte), Integer))
         Me.btnAceptar.FlatAppearance.BorderSize = 0
         Me.btnAceptar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnAceptar.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.5!)
-        Me.btnAceptar.Location = New System.Drawing.Point(372, 524)
+        Me.btnAceptar.Location = New System.Drawing.Point(491, 516)
         Me.btnAceptar.Name = "btnAceptar"
         Me.btnAceptar.Size = New System.Drawing.Size(140, 36)
         Me.btnAceptar.TabIndex = 71
