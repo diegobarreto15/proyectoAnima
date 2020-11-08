@@ -18,4 +18,8 @@
     Private Sub BajaUsuarioToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles BajaUsuarioToolStripMenuItem.Click
         bajaUsuarioForm.ShowDialog()
     End Sub
+
+    Private Sub BuscarToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles BuscarToolStripMenuItem.Click
+        buscarReporte.ShowDialog()
+    End Sub
 End Class

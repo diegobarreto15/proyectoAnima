@@ -78,19 +78,19 @@ Partial Class mainForm
         'AsignarEstadoToolStripMenuItem
         '
         Me.AsignarEstadoToolStripMenuItem.Name = "AsignarEstadoToolStripMenuItem"
-        Me.AsignarEstadoToolStripMenuItem.Size = New System.Drawing.Size(155, 22)
+        Me.AsignarEstadoToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.AsignarEstadoToolStripMenuItem.Text = "Asignar estado "
         '
         'ListarToolStripMenuItem
         '
         Me.ListarToolStripMenuItem.Name = "ListarToolStripMenuItem"
-        Me.ListarToolStripMenuItem.Size = New System.Drawing.Size(155, 22)
+        Me.ListarToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.ListarToolStripMenuItem.Text = "listar"
         '
         'BuscarToolStripMenuItem
         '
         Me.BuscarToolStripMenuItem.Name = "BuscarToolStripMenuItem"
-        Me.BuscarToolStripMenuItem.Size = New System.Drawing.Size(155, 22)
+        Me.BuscarToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.BuscarToolStripMenuItem.Text = "buscar"
         '
         'mainForm
