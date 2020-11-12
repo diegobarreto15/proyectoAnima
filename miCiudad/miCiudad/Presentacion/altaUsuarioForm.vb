@@ -29,8 +29,8 @@
             Dim usuarioNueva = New ClaseUsuario()
             Dim logica As New LogicaUsuario()
 
+
             If emailUsuario <> "" And ciUsuario.ToString <> "" And apellidoUsuario <> "" And nombreUsuario <> "" And contrasenia <> "" Then
-                usuarioNueva.NombreUsuario = nombreUsuario
                 usuarioNueva.Email = emailUsuario
                 usuarioNueva.Ci = ciUsuario
                 usuarioNueva.Nombre = nombreUsuario
